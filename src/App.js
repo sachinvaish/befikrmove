@@ -8,6 +8,7 @@ import Faq from './pages/Faq';
 import Footer from './components/Footer';
 import GoTopButton from './components/GoTopButton';
 import About from './pages/About';
+import Services from './pages/Services';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route exact path="/blog" element={<Blog/>}/>
         <Route exact path="/faq" element={<Faq/>}/>
         <Route exact path="/about" element={<About/>}/>
+        <Route exact path="/services" element={<Services/>}/>
       </Routes>
       <Footer/>
       <GoTopButton/>

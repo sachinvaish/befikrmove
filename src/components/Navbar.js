@@ -43,11 +43,11 @@ export default function Navbar() {
                                     <li className="has-child"><a href="#">Pages</a>
                                         <ul className="sub-menu">
                                             <li><Link to="/about">About Us</Link></li>
-                                            <li><a href="faq.html">Faq</a></li>
+                                            <li><Link to="/faq">Faq</Link></li>
                                             <li><a href="error-404.html">Error 404</a></li>
                                         </ul>
                                     </li>
-                                    <li className="has-child"><a href="#">Services</a>
+                                    <li className="has-child"><Link to="/services">Services</Link>
                                         <ul className="sub-menu">
                                             <li><a href="services-1.html">Services 1</a></li>
                                             <li><a href="services-2.html">Services 2</a></li>
@@ -55,13 +55,13 @@ export default function Navbar() {
                                         </ul>
                                     </li>
 
-                                    <li className="has-child"><a href="#">Blog</a>
+                                    <li className="has-child"><Link to="/blog">Blog</Link>
                                         <ul className="sub-menu">
                                             <li><a href="blog-grid.html">Blog Grid</a></li>
                                             <li><a href="blog-single.html">Blog Detail</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><Link to="/contact">Contact</Link></li>
 
                                 </ul>
 
