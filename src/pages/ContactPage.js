@@ -107,15 +107,12 @@ export default function ContactPage() {
 
                                                 <div className="c-info-column">
                                                     <div className="c-info-icon fa fa-mobile-phone custome-size"><span></span></div>
-
-                                                    <p><a href="tel:+216-761-8331">+2 900 234 4241</a></p>
-                                                    <p><a href="tel:+216-761-8331">+2 900 234 3219</a></p>
+                                                    <p><a href="tel:+216-761-8331">+91 7764 076 100</a></p>
                                                 </div>
 
                                                 <div className="c-info-column">
                                                     <div className="c-info-icon fa fa-envelope-o"><span></span></div>
-                                                    <p>infohelp@gmail.com</p>
-                                                    <p>support12@gmail.com</p>
+                                                    <p>info@befikr.com</p>
                                                 </div>
 
                                             </div>

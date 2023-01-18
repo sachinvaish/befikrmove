@@ -9,6 +9,7 @@ import Footer from './components/Footer';
 import GoTopButton from './components/GoTopButton';
 import About from './pages/About';
 import Services from './pages/Services';
+import Gallery from './pages/Gallery';
 
 function App() {
   return (
@@ -17,10 +18,11 @@ function App() {
       <Routes>
         <Route exact path ='/' element={<IndexPage/>}/>
         <Route exact path ='/contact' element={<ContactPage/>}/>
-        <Route exact path="/blog" element={<Blog/>}/>
-        <Route exact path="/faq" element={<Faq/>}/>
+        {/* <Route exact path="/blog" element={<Blog/>}/> */}
+        {/* <Route exact path="/faq" element={<Faq/>}/> */}
         <Route exact path="/about" element={<About/>}/>
         <Route exact path="/services" element={<Services/>}/>
+        <Route exact path="/gallery" element={<Gallery/>}/>
       </Routes>
       <Footer/>
       <GoTopButton/>

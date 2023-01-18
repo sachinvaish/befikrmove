@@ -15,7 +15,7 @@ export default function Navbar() {
                             <div className="logo-header">
                                 <div className="logo-header-inner logo-header-one">
                                     <a href="index.html">
-                                        <img src="assets/images/logo-light.png" style={{ filter: 'invert(100%)' }} alt="" />
+                                        <img src="assets/images/logo-light.png" style={{ filter: 'invert(0%)' }} alt="" />
                                     </a>
                                 </div>
                             </div>
@@ -32,37 +32,12 @@ export default function Navbar() {
                             <div className="nav-animation header-nav navbar-collapse collapse d-flex justify-content-center">
 
                                 <ul className=" nav navbar-nav">
-                                    <li className="has-child"><Link to='/'>Home</Link>
-                                        <ul className="sub-menu">
-                                            <li><a href="index.html">Home-1</a></li>
-                                            {/* <li><a href="index-2.html">Home-2</a></li>
-                                            <li><a href="index-3.html">Home-3</a></li>
-                                            <li><a href="index-4.html">Home-4</a></li> */}
-                                        </ul>
-                                    </li>
-                                    <li className="has-child"><a href="#">Pages</a>
-                                        <ul className="sub-menu">
-                                            <li><Link to="/about">About Us</Link></li>
-                                            <li><Link to="/faq">Faq</Link></li>
-                                            <li><a href="error-404.html">Error 404</a></li>
-                                        </ul>
-                                    </li>
-                                    <li className="has-child"><Link to="/services">Services</Link>
-                                        <ul className="sub-menu">
-                                            <li><a href="services-1.html">Services 1</a></li>
-                                            <li><a href="services-2.html">Services 2</a></li>
-                                            <li><a href="services-detail.html">Services Detail</a></li>
-                                        </ul>
-                                    </li>
-
-                                    <li className="has-child"><Link to="/blog">Blog</Link>
-                                        <ul className="sub-menu">
-                                            <li><a href="blog-grid.html">Blog Grid</a></li>
-                                            <li><a href="blog-single.html">Blog Detail</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><Link to="/contact">Contact</Link></li>
-
+                                    <li className='has-child'><Link to='/'>Home</Link></li>
+                                    <li className='has-child'><Link to="/about">About Us</Link></li>
+                                    <li className='has-child'><Link to="/services">Services</Link></li>
+                                    <li className='has-child'><Link to="/gallery">Gallery</Link></li>
+                                    <li className='has-child'><Link to="/branches">Our Branches</Link></li>
+                                    <li className='has-child'><Link to="/contact">Contact</Link></li>
                                 </ul>
 
                             </div>
