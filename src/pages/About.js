@@ -5,7 +5,7 @@ export default function About() {
     <div className="page-content">
 
             {/* <!-- INNER PAGE BANNER --> */}
-            <div className="wt-bnr-inr overlay-wraper bg-center" style={{backgroundImage:`url('${process.env.PUBLIC_URL}assets/images/banner/1.jpg')`}}>
+            <div className="wt-bnr-inr overlay-wraper bg-center" style={{backgroundImage:`url('${process.env.PUBLIC_URL}/assets/images/banner/1.jpg')`}}>
             	<div className="overlay-main site-bg-sky opacity-08"></div>
                 <div className="container">
                     <div className="wt-bnr-inr-entry">
@@ -49,7 +49,7 @@ export default function About() {
                         <div className="row">
                             <div className="col-xl-5 col-lg-5 col-md-12">
                                 <div className="tw-what-wedo-media">
-                                    <img src={process.env.PUBLIC_URL+`assets/images/icons/img1.png`} alt=""/>
+                                    <img src={process.env.PUBLIC_URL+`/assets/images/icons/img1.png`} alt=""/>
                                 </div>
                             </div>
 
@@ -59,7 +59,7 @@ export default function About() {
                                     <div className="service-icon-box-two">
                                     
                                         <div className="service-icon-box-two-media">
-                                            <img src={process.env.PUBLIC_URL+`assets/images/icons/pic1.png`} alt="#"/>
+                                            <img src={process.env.PUBLIC_URL+`/assets/images/icons/pic1.png`} alt="#"/>
                                         </div>
                                                                                 
                                         <div className="service-icon-box-title">
@@ -77,7 +77,7 @@ export default function About() {
                                     <div className="service-icon-box-two">
                                     
                                         <div className="service-icon-box-two-media">
-                                            <img src={process.env.PUBLIC_URL+`assets/images/icons/pic2.png`} alt="#"/>
+                                            <img src={process.env.PUBLIC_URL+`/assets/images/icons/pic2.png`} alt="#"/>
                                         </div>
                                                                                 
                                         <div className="service-icon-box-title">
@@ -95,7 +95,7 @@ export default function About() {
                                     <div className="service-icon-box-two">
                                     
                                         <div className="service-icon-box-two-media">
-                                            <img src={process.env.PUBLIC_URL+`assets/images/icons/pic3.png`} alt="#"/>
+                                            <img src={process.env.PUBLIC_URL+`/assets/images/icons/pic3.png`} alt="#"/>
                                         </div>
                                                                                 
                                         <div className="service-icon-box-title">
@@ -156,7 +156,7 @@ export default function About() {
             {/* <!-- WE ACHIVED SECTION END --> */}
 
             {/* <!-- TESTIMONIALS SECTION START --> */}
-            <div className="section-full bg-cover p-t120 p-b90 bg-cover tw-testimonial-1-area" style={{backgroundImage:`url('${process.env.PUBLIC_URL}assets/images/background/bg-6.jpg')`}}>
+            <div className="section-full bg-cover p-t120 p-b90 bg-cover tw-testimonial-1-area" style={{backgroundImage:`url('${process.env.PUBLIC_URL}/assets/images/background/bg-6.jpg')`}}>
                 <div className="tw-testimonial-inner-wrap">
                     <div className="container">
                         <div className="row">
@@ -175,38 +175,38 @@ export default function About() {
                                         <ul>
                                             <li>
                                                 <div className="logo-media">
-                                                    <a href="services-1.html"><img src={process.env.PUBLIC_URL+`assets/images/client-logo/w1.png`} alt=""/></a>
+                                                    <a href="services-1.html"><img src={process.env.PUBLIC_URL+`/assets/images/client-logo/w1.png`} alt=""/></a>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div className="logo-media">
-                                                    <a href="services-1.html"><img src={process.env.PUBLIC_URL+`assets/images/client-logo/w2.png`} alt=""/></a>
+                                                    <a href="services-1.html"><img src={process.env.PUBLIC_URL+`/assets/images/client-logo/w2.png`} alt=""/></a>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div className="logo-media">
-                                                    <a href="services-1.html"><img src={process.env.PUBLIC_URL+`assets/images/client-logo/w3.png`} alt=""/></a>
+                                                    <a href="services-1.html"><img src={process.env.PUBLIC_URL+`/assets/images/client-logo/w3.png`} alt=""/></a>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div className="logo-media">
-                                                    <a href="services-1.html"><img src={process.env.PUBLIC_URL+`assets/images/client-logo/w4.png`} alt=""/></a>
+                                                    <a href="services-1.html"><img src={process.env.PUBLIC_URL+`/assets/images/client-logo/w4.png`} alt=""/></a>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div className="logo-media">
-                                                    <a href="services-1.html"><img src={process.env.PUBLIC_URL+`assets/images/client-logo/w5.png`} alt=""/></a>
+                                                    <a href="services-1.html"><img src={process.env.PUBLIC_URL+`/assets/images/client-logo/w5.png`} alt=""/></a>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div className="logo-media">
-                                                    <a href="services-1.html"><img src={process.env.PUBLIC_URL+`assets/images/client-logo/w6.png`} alt=""/></a>
+                                                    <a href="services-1.html"><img src={process.env.PUBLIC_URL+`/assets/images/client-logo/w6.png`} alt=""/></a>
                                                 </div>
                                             </li>
                                             
                                         </ul>
                                         <div className="truck-img">
-                                            <img src={process.env.PUBLIC_URL+`assets/images/truck.png`} alt="#"/>
+                                            <img src={process.env.PUBLIC_URL+`/assets/images/truck.png`} alt="#"/>
                                         </div>
                                     </div>
                                 </div>
@@ -221,22 +221,22 @@ export default function About() {
                                         
                                             <div className="slick-item">
                                                 <div className="slick-testimonials-thumb">
-                                                    <img src={process.env.PUBLIC_URL+`assets/images/testimonials/pic1.jpg`} alt="one"/>
+                                                    <img src={process.env.PUBLIC_URL+`/assets/images/testimonials/pic1.jpg`} alt="one"/>
                                                 </div>
                                             </div>
                                             <div className="slick-item">
                                                 <div className="slick-testimonials-thumb">
-                                                    <img src={process.env.PUBLIC_URL+`assets/images/testimonials/pic2.jpg`} alt="two"/>
+                                                    <img src={process.env.PUBLIC_URL+`/assets/images/testimonials/pic2.jpg`} alt="two"/>
                                                 </div>
                                             </div>
                                             <div className="slick-item">
                                                 <div className="slick-testimonials-thumb">
-                                                    <img src={process.env.PUBLIC_URL+`assets/images/testimonials/pic3.jpg`} alt="three"/>
+                                                    <img src={process.env.PUBLIC_URL+`/assets/images/testimonials/pic3.jpg`} alt="three"/>
                                                 </div>
                                             </div>
                                             <div className="slick-item">
                                                 <div className="slick-testimonials-thumb">
-                                                    <img src={process.env.PUBLIC_URL+`assets/images/testimonials/pic4.jpg`} alt="four"/>
+                                                    <img src={process.env.PUBLIC_URL+`/assets/images/testimonials/pic4.jpg`} alt="four"/>
                                                 </div>
                                             </div>                                    
                                         </div>                            
@@ -245,7 +245,7 @@ export default function About() {
                                             <div className="slick-item">
                                             <div className="tw-testimonials1-cell">
                                                     <div className="tw-testimonials1-text">
-                                                        <span className="tw-testimonials1-quote"><img src={process.env.PUBLIC_URL+`assets/images/quote.png`} alt=""/></span>
+                                                        <span className="tw-testimonials1-quote"><img src={process.env.PUBLIC_URL+`/assets/images/quote.png`} alt=""/></span>
                                                         Nemo enim ipsam voluptate voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratio ne voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi
                                                 </div>
                                                     <div className="tw-testimonials1-name">Peter Len</div>
@@ -255,7 +255,7 @@ export default function About() {
                                             <div className="slick-item">
                                             <div className="tw-testimonials1-cell">
                                                     <div className="tw-testimonials1-text">
-                                                        <span className="tw-testimonials1-quote"><img src={process.env.PUBLIC_URL+`assets/images/quote.png`} alt=""/></span>
+                                                        <span className="tw-testimonials1-quote"><img src={process.env.PUBLIC_URL+`/assets/images/quote.png`} alt=""/></span>
                                                         Nemo enim ipsam voluptate voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratio ne voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi
                                                 </div>
                                                     <div className="tw-testimonials1-name">Giselle</div>
@@ -265,7 +265,7 @@ export default function About() {
                                             <div className="slick-item">
                                             <div className="tw-testimonials1-cell">
                                                     <div className="tw-testimonials1-text">
-                                                        <span className="tw-testimonials1-quote"><img src={process.env.PUBLIC_URL+`assets/images/quote.png`} alt=""/></span>
+                                                        <span className="tw-testimonials1-quote"><img src={process.env.PUBLIC_URL+`/assets/images/quote.png`} alt=""/></span>
                                                         Nemo enim ipsam voluptate voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratio ne voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi
                                                 </div>
                                                     <div className="tw-testimonials1-name">Josephine</div>
@@ -275,7 +275,7 @@ export default function About() {
                                             <div className="slick-item">
                                             <div className="tw-testimonials1-cell">
                                                     <div className="tw-testimonials1-text">
-                                                        <span className="tw-testimonials1-quote"><img src={process.env.PUBLIC_URL+`assets/images/quote.png`} alt=""/></span>
+                                                        <span className="tw-testimonials1-quote"><img src={process.env.PUBLIC_URL+`/assets/images/quote.png`} alt=""/></span>
                                                         Nemo enim ipsam voluptate voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratio ne voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi
                                                 </div>
                                                     <div className="tw-testimonials1-name">Penelope</div>
@@ -323,7 +323,7 @@ export default function About() {
                             <div className="tw-company-years">
                                 <div className="light">
                                     <h1>35</h1>
-                                   <img src={process.env.PUBLIC_URL+`assets/images/text-bg.jpg`} alt=""/>
+                                   <img src={process.env.PUBLIC_URL+`/assets/images/text-bg.jpg`} alt=""/>
                                 </div>
                                 <div className="tw-company-info">
                                     <span>Year’s of experience in transport and logistics services</span>
@@ -336,7 +336,7 @@ export default function About() {
                                 <div className="col-lg-4 col-md-12">
                                     <div className="counter-outer-two">
                                         <div className="tw-counter-media">
-                                            <img src={process.env.PUBLIC_URL+`assets/images/icons/c-pic1.png`} alt=""/>
+                                            <img src={process.env.PUBLIC_URL+`/assets/images/icons/c-pic1.png`} alt=""/>
                                         </div>
                                         <div className="icon-content">
                                             <div className="tw-count-number site-text-primary"><span className="counter site-text-primary">195</span>+</div>
@@ -349,7 +349,7 @@ export default function About() {
                                 <div className="col-lg-4 col-md-12">
                                     <div className="counter-outer-two">
                                         <div className="tw-counter-media">
-                                            <img src={process.env.PUBLIC_URL+`assets/images/icons/c-pic2.png`} alt=""/>
+                                            <img src={process.env.PUBLIC_URL+`/assets/images/icons/c-pic2.png`} alt=""/>
                                         </div>
                                         <div className="icon-content">
                                             <div className="tw-count-number site-text-primary"><span className="counter site-text-primary">250</span>+</div>
@@ -362,7 +362,7 @@ export default function About() {
                                 <div className="col-lg-4 col-md-12">
                                     <div className="counter-outer-two">
                                         <div className="tw-counter-media">
-                                            <img src={process.env.PUBLIC_URL+`assets/images/icons/c-pic3.png`} alt=""/>
+                                            <img src={process.env.PUBLIC_URL+`/assets/images/icons/c-pic3.png`} alt=""/>
                                         </div>
                                         <div className="icon-content">
                                             <div className="tw-count-number site-text-primary"><span className="counter site-text-primary">350</span>+</div>

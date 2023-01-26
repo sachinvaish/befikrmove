@@ -10,7 +10,7 @@ export default function Footer() {
                     <div className="ftr-nw-ltr-inner site-bg-primary">
                         <div className="container">
                             <div className="ftr-nw-img">
-                                <img src={process.env.PUBLIC_URL+`assets/images/news-l-bg.png`} alt=""/>
+                                <img src={process.env.PUBLIC_URL+`/assets/images/news-l-bg.png`} alt=""/>
                             </div>
                             <div className="ftr-nw-content">
                                 <div className="ftr-nw-title">Subscribe for offers and news</div>
@@ -26,7 +26,7 @@ export default function Footer() {
             </div>
             {/* <!-- NEWS LETTER SECTION END --> */}
 
-            <div className="ftr-bg"  style={{backgroundImage: `url('${process.env.PUBLIC_URL}assets/images/f-bg.jpg')`}}>
+            <div className="ftr-bg"  style={{backgroundImage: `url('${process.env.PUBLIC_URL}/assets/images/f-bg.jpg')`}}>
                 {/* <!-- FOOTER BLOCKES START -->   */}
                 <div className="footer-top">
                     <div className="container">
@@ -36,7 +36,7 @@ export default function Footer() {
                                 
                                 <div className="widget widget_about">
                                     <div className="logo-footer clearfix">
-                                        <a href="index.html"><img src={process.env.PUBLIC_URL+`assets/images/logo-dark.png`} alt=""/></a>
+                                        <a href="index.html"><img src={process.env.PUBLIC_URL+`/assets/images/logo-dark.png`} alt=""/></a>
                                     </div>
                                     <p>Many desktop publishing packages and web page editors now use are lorem Ipsum as their default .</p>
                                     <ul className="social-icons">
@@ -99,7 +99,7 @@ export default function Footer() {
                         <div className="footer-bottom-info">
                         
                             <div className="footer-copy-right">
-                                <span className="copyrights-text">Copyright © 2022 by thewebmax All Rights Reserved.</span>
+                                <span className="copyrights-text">Copyright © 2023 by Befikrmove | All Rights Reserve.</span>
                             </div>
                             
                         </div>

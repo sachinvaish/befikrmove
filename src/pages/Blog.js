@@ -5,7 +5,7 @@ export default function Blog() {
         <div className="page-content">
 
             {/* <!-- INNER PAGE BANNER --> */}
-            <div className="wt-bnr-inr overlay-wraper bg-center" style={{backgroundImage:`url('${process.env.PUBLIC_URL}assets/images/banner/1.jpg')`}}>
+            <div className="wt-bnr-inr overlay-wraper bg-center" style={{backgroundImage:`url('${process.env.PUBLIC_URL}/assets/images/banner/1.jpg')`}}>
                 <div className="overlay-main site-bg-sky opacity-08"></div>
                 <div className="container">
                     <div className="wt-bnr-inr-entry">
@@ -44,7 +44,7 @@ export default function Blog() {
 
                                     <div className="blog-post blog-post-4-outer">
                                         <div className="wt-post-media wt-img-effect zoom-slow">
-                                            <a href="blog-single.html"><img src={process.env.PUBLIC_URL+`assets/images/blog/latest/bg1.jpg`} alt=""/></a>
+                                            <a href="blog-single.html"><img src={process.env.PUBLIC_URL+`/assets/images/blog/latest/bg1.jpg`} alt=""/></a>
                                         </div>
                                         <div className="wt-post-info">
                                             <div className="wt-post-meta ">
@@ -75,7 +75,7 @@ export default function Blog() {
 
                                     <div className="blog-post blog-post-4-outer">
                                         <div className="wt-post-media wt-img-effect zoom-slow">
-                                            <a href="blog-single.html"><img src={process.env.PUBLIC_URL+`assets/images/blog/latest-2/l-1.jpg`} alt=""/></a>
+                                            <a href="blog-single.html"><img src={process.env.PUBLIC_URL+`/assets/images/blog/latest-2/l-1.jpg`} alt=""/></a>
                                         </div>
                                         <div className="wt-post-info">
                                             <div className="wt-post-meta ">
@@ -106,7 +106,7 @@ export default function Blog() {
 
                                     <div className="blog-post blog-post-4-outer">
                                         <div className="wt-post-media wt-img-effect zoom-slow">
-                                            <a href="blog-single.html"><img src={process.env.PUBLIC_URL+`assets/images/blog/latest/bg2.jpg`} alt=""/></a>
+                                            <a href="blog-single.html"><img src={process.env.PUBLIC_URL+`/assets/images/blog/latest/bg2.jpg`} alt=""/></a>
                                         </div>
                                         <div className="wt-post-info">
                                             <div className="wt-post-meta ">
@@ -137,7 +137,7 @@ export default function Blog() {
 
                                     <div className="blog-post blog-post-4-outer">
                                         <div className="wt-post-media wt-img-effect zoom-slow">
-                                            <a href="blog-single.html"><img src={process.env.PUBLIC_URL+`assets/images/blog/latest-2/l-2.jpg`} alt=""/></a>
+                                            <a href="blog-single.html"><img src={process.env.PUBLIC_URL+`/assets/images/blog/latest-2/l-2.jpg`} alt=""/></a>
                                         </div>
                                         <div className="wt-post-info">
                                             <div className="wt-post-meta ">
@@ -168,7 +168,7 @@ export default function Blog() {
 
                                     <div className="blog-post blog-post-4-outer">
                                         <div className="wt-post-media wt-img-effect zoom-slow">
-                                            <a href="blog-single.html"><img src={process.env.PUBLIC_URL+`assets/images/blog/latest/bg3.jpg`} alt=""/></a>
+                                            <a href="blog-single.html"><img src={process.env.PUBLIC_URL+`/assets/images/blog/latest/bg3.jpg`} alt=""/></a>
                                         </div>
                                         <div className="wt-post-info">
                                             <div className="wt-post-meta ">
@@ -198,7 +198,7 @@ export default function Blog() {
 
                                     <div className="blog-post blog-post-4-outer">
                                         <div className="wt-post-media wt-img-effect zoom-slow">
-                                            <a href="blog-single.html"><img src={process.env.PUBLIC_URL+`assets/images/blog/latest-2/l-3.jpg`} alt=""/></a>
+                                            <a href="blog-single.html"><img src={process.env.PUBLIC_URL+`/assets/images/blog/latest-2/l-3.jpg`} alt=""/></a>
                                         </div>
                                         <div className="wt-post-info">
                                             <div className="wt-post-meta ">
@@ -242,7 +242,7 @@ export default function Blog() {
                                         <div className="wt-post-readmore ">
                                             <a href="blog-single.html" className="site-button-link site-text-white">Read More</a>
                                         </div>
-                                        <span className="qt-light"><img src={process.env.PUBLIC_URL+`assets/images/quote-white.png`} alt="#"/></span>
+                                        <span className="qt-light"><img src={process.env.PUBLIC_URL+`/assets/images/quote-white.png`} alt="#"/></span>
                                     </div>
 
                                 </div>
@@ -296,7 +296,7 @@ export default function Blog() {
                                     <div className="widget-post-bx">
                                         <div className="widget-post clearfix">
                                             <div className="wt-post-media">
-                                                <img src={process.env.PUBLIC_URL+`assets/images/blog/recent-blog/pic1.jpg`} alt=""/>
+                                                <img src={process.env.PUBLIC_URL+`/assets/images/blog/recent-blog/pic1.jpg`} alt=""/>
                                             </div>
                                             <div className="wt-post-info">
                                                 <div className="wt-post-header">
@@ -309,7 +309,7 @@ export default function Blog() {
                                         </div>
                                         <div className="widget-post clearfix">
                                             <div className="wt-post-media">
-                                                <img src={process.env.PUBLIC_URL+`assets/images/blog/recent-blog/pic2.jpg`} alt=""/>
+                                                <img src={process.env.PUBLIC_URL+`/assets/images/blog/recent-blog/pic2.jpg`} alt=""/>
                                             </div>
                                             <div className="wt-post-info">
                                                 <div className="wt-post-header">
@@ -323,7 +323,7 @@ export default function Blog() {
 
                                         <div className="widget-post clearfix">
                                             <div className="wt-post-media">
-                                                <img src={process.env.PUBLIC_URL+`assets/images/blog/recent-blog/pic3.jpg`} alt=""/>
+                                                <img src={process.env.PUBLIC_URL+`/assets/images/blog/recent-blog/pic3.jpg`} alt=""/>
                                             </div>
                                             <div className="wt-post-info">
                                                 <div className="wt-post-header">
@@ -348,7 +348,7 @@ export default function Blog() {
                                         <li>
                                             <div className="tw-service-gallery-thumb">
                                                 <a className="elem" href="images/gallery/thumb/pic1.jpg" title="Title 1" data-lcl-author="" data-lcl-thumb="images/gallery/thumb/pic1.jpg">
-                                                    <img src={process.env.PUBLIC_URL+`assets/images/gallery/thumb/pic1.jpg`} alt=""/>
+                                                    <img src={process.env.PUBLIC_URL+`/assets/images/gallery/thumb/pic1.jpg`} alt=""/>
                                                         <i className="fa fa-file-image-o"></i>
                                                 </a>
                                             </div>
@@ -357,7 +357,7 @@ export default function Blog() {
                                         <li>
                                             <div className="tw-service-gallery-thumb">
                                                 <a className="elem" href="images/gallery/thumb/pic2.jpg" title="Title 2" data-lcl-author="" data-lcl-thumb="images/gallery/thumb/pic2.jpg">
-                                                    <img src={process.env.PUBLIC_URL+`assets/images/gallery/thumb/pic2.jpg`} alt=""/>
+                                                    <img src={process.env.PUBLIC_URL+`/assets/images/gallery/thumb/pic2.jpg`} alt=""/>
                                                         <i className="fa fa-file-image-o"></i>
                                                 </a>
                                             </div>
@@ -366,7 +366,7 @@ export default function Blog() {
                                         <li>
                                             <div className="tw-service-gallery-thumb ">
                                                 <a className="elem" href="images/gallery/thumb/pic3.jpg" title="Title 3" data-lcl-author="" data-lcl-thumb="images/gallery/thumb/pic3.jpg">
-                                                    <img src={process.env.PUBLIC_URL+`assets/images/gallery/thumb/pic3.jpg`} alt=""/>
+                                                    <img src={process.env.PUBLIC_URL+`/assets/images/gallery/thumb/pic3.jpg`} alt=""/>
                                                         <i className="fa fa-file-image-o"></i>
                                                 </a>
                                             </div>
@@ -375,7 +375,7 @@ export default function Blog() {
                                         <li>
                                             <div className="tw-service-gallery-thumb">
                                                 <a className="elem" href="images/gallery/thumb/pic4.jpg" title="Title 4" data-lcl-author="" data-lcl-thumb="images/gallery/thumb/pic4.jpg">
-                                                    <img src={process.env.PUBLIC_URL+`assets/images/gallery/thumb/pic4.jpg`} alt=""/>
+                                                    <img src={process.env.PUBLIC_URL+`/assets/images/gallery/thumb/pic4.jpg`} alt=""/>
                                                         <i className="fa fa-file-image-o"></i>
                                                 </a>
                                             </div>
@@ -384,7 +384,7 @@ export default function Blog() {
                                         <li>
                                             <div className="tw-service-gallery-thumb">
                                                 <a className="elem" href="images/gallery/thumb/pic5.jpg" title="Title 5" data-lcl-author="" data-lcl-thumb="images/gallery/thumb/pic5.jpg">
-                                                    <img src={process.env.PUBLIC_URL+`assets/images/gallery/thumb/pic5.jpg`} alt=""/>
+                                                    <img src={process.env.PUBLIC_URL+`/assets/images/gallery/thumb/pic5.jpg`} alt=""/>
                                                         <i className="fa fa-file-image-o"></i>
                                                 </a>
                                             </div>
@@ -393,7 +393,7 @@ export default function Blog() {
                                         <li>
                                             <div className="tw-service-gallery-thumb">
                                                 <a className="elem" href="images/gallery/thumb/pic6.jpg" title="Title 6" data-lcl-author="" data-lcl-thumb="images/gallery/thumb/pic6.jpg">
-                                                    <img src={process.env.PUBLIC_URL+`assets/images/gallery/thumb/pic2.jpg`} alt=""/>
+                                                    <img src={process.env.PUBLIC_URL+`/assets/images/gallery/thumb/pic2.jpg`} alt=""/>
                                                         <i className="fa fa-file-image-o"></i>
                                                 </a>
                                             </div>
@@ -422,7 +422,7 @@ export default function Blog() {
 
                             <div className="widget tw-contact-bg-section">
                                 <h4 className="section-head-small mb-4">Any Emergency?</h4>
-                                <div className="tw-contact-bg-inner" style={{backgroundImage: `url('${process.env.PUBLIC_URL}assets/images/background/bg-4.jpg')`}}>
+                                <div className="tw-contact-bg-inner" style={{backgroundImage: `url('${process.env.PUBLIC_URL}/assets/images/background/bg-4.jpg')`}}>
                                     <div className="section-top">
                                         <span>Call Our 24/7 Customer Support</span>
                                         <h3 className="tw-con-number"><a href="tel:+9(465)3212055"> +9 (465) 321 20 55</a></h3>
@@ -430,11 +430,11 @@ export default function Blog() {
                                     <div className="section-bot">
                                         <ul>
                                             <li>
-                                                <span><img src={process.env.PUBLIC_URL+`assets/images/icons/map-marker.png`} alt=""/></span>
+                                                <span><img src={process.env.PUBLIC_URL+`/assets/images/icons/map-marker.png`} alt=""/></span>
                                                 <p>121 King Street Maxvilla , Tx USA </p>
                                             </li>
                                             <li>
-                                                <span><img src={process.env.PUBLIC_URL+`assets/images/icons/map-marker.png`} alt=""/></span>
+                                                <span><img src={process.env.PUBLIC_URL+`/assets/images/icons/map-marker.png`} alt=""/></span>
                                                 <p>themaxhelp@gmail.com</p>
                                             </li>
                                         </ul>

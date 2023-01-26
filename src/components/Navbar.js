@@ -1,7 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 export default function Navbar() {
+
+    const navigate = useNavigate();
     return (
         <div>
             {/* <!-- HEADER START --> */}
@@ -15,7 +17,7 @@ export default function Navbar() {
                             <div className="logo-header">
                                 <div className="logo-header-inner logo-header-one">
                                     <a href="index.html">
-                                        <img src="assets/images/logo-light.png" style={{ filter: 'invert(0%)' }} alt="" />
+                                        <img src={process.env.PUBLIC_URL+`/assets/images/logo-dark.png`} style={{ filter: 'invert(0%)' }} alt="" />
                                     </a>
                                 </div>
                             </div>
@@ -54,11 +56,11 @@ export default function Navbar() {
 
 
                                         <div className="detail">
-                                            <span className="title">Free Call In U.S.A</span>
-                                            <span><a href="tel:29002344241">2 900 234 4241</a></span>
+                                            <span className="title">Book your move</span>
+                                            <span><a href="tel:29002344241">77640-76100</a></span>
                                         </div>
                                         <div className="media">
-                                            <img src={process.env.PUBLIC_URL + `assets/images/call.png`} alt="#" />
+                                            <img src={process.env.PUBLIC_URL + `/assets/images/call.png`} alt="#" />
                                         </div>
                                     </div>
                                 </div>

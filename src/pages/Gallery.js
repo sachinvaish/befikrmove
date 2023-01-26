@@ -5,7 +5,7 @@ export default function Gallery() {
         <div className="page-content">
 
             {/* <!-- INNER PAGE BANNER --> */}
-            <div className="wt-bnr-inr overlay-wraper bg-center" style={{backgroundImage:`url('${process.env.PUBLIC_URL}assets/images/banner/1.jpg')`}}>
+            <div className="wt-bnr-inr overlay-wraper bg-center" style={{backgroundImage:`url('${process.env.PUBLIC_URL}/assets/images/banner/1.jpg')`}}>
                 <div className="overlay-main site-bg-sky opacity-08"></div>
                 <div className="container">
                     <div className="wt-bnr-inr-entry">
@@ -51,7 +51,7 @@ export default function Gallery() {
                                             <li>
                                                 <div className="tw-service-gallery-thumb" >
                                                     <a className="elem" href="images/gallery/thumb/pic1.jpg" title="Title 1" data-lcl-author="" data-lcl-thumb="images/gallery/thumb/pic1.jpg">
-                                                        <img src={process.env.PUBLIC_URL+`assets/images/gallery/thumb/pic1.jpeg`} alt="" style={{objectFit:'cover', aspectRatio:'1/1', width:'auto', height:'auto'}}/>
+                                                        <img src={process.env.PUBLIC_URL+`/assets/images/gallery/thumb/pic1.jpeg`} alt="" style={{objectFit:'cover', aspectRatio:'1/1', width:'auto', height:'auto'}}/>
                                                             <i className="fa fa-file-image-o"></i>
                                                     </a>
                                                 </div>
@@ -60,7 +60,7 @@ export default function Gallery() {
                                             <li>
                                                 <div className="tw-service-gallery-thumb">
                                                     <a className="elem" href="images/gallery/thumb/pic2.jpg" title="Title 2" data-lcl-author="" data-lcl-thumb="images/gallery/thumb/pic2.jpg">
-                                                        <img src={process.env.PUBLIC_URL+`assets/images/gallery/thumb/pic2.jpeg`} alt="" style={{objectFit:'cover', aspectRatio:'1/1', width:'auto', height:'auto'}}/>
+                                                        <img src={process.env.PUBLIC_URL+`/assets/images/gallery/thumb/pic2.jpeg`} alt="" style={{objectFit:'cover', aspectRatio:'1/1', width:'auto', height:'auto'}}/>
                                                             <i className="fa fa-file-image-o"></i>
                                                     </a>
                                                 </div>
@@ -69,7 +69,7 @@ export default function Gallery() {
                                             <li>
                                                 <div className="tw-service-gallery-thumb ">
                                                     <a className="elem" href="images/gallery/thumb/pic3.jpg" title="Title 3" data-lcl-author="" data-lcl-thumb="images/gallery/thumb/pic3.jpg">
-                                                        <img src={process.env.PUBLIC_URL+`assets/images/gallery/thumb/pic3.jpeg`} alt="" style={{objectFit:'cover', aspectRatio:'1/1', width:'auto', height:'auto'}}/>
+                                                        <img src={process.env.PUBLIC_URL+`/assets/images/gallery/thumb/pic3.jpeg`} alt="" style={{objectFit:'cover', aspectRatio:'1/1', width:'auto', height:'auto'}}/>
                                                             <i className="fa fa-file-image-o"></i>
                                                     </a>
                                                 </div>
@@ -78,7 +78,7 @@ export default function Gallery() {
                                             <li>
                                                 <div className="tw-service-gallery-thumb">
                                                     <a className="elem" href="images/gallery/thumb/pic4.jpg" title="Title 4" data-lcl-author="" data-lcl-thumb="images/gallery/thumb/pic4.jpg">
-                                                        <img src={process.env.PUBLIC_URL+`assets/images/gallery/thumb/pic4.jpeg`} alt="" style={{objectFit:'cover', aspectRatio:'1/1', width:'auto', height:'auto'}}/>
+                                                        <img src={process.env.PUBLIC_URL+`/assets/images/gallery/thumb/pic4.jpeg`} alt="" style={{objectFit:'cover', aspectRatio:'1/1', width:'auto', height:'auto'}}/>
                                                             <i className="fa fa-file-image-o"></i>
                                                     </a>
                                                 </div>
@@ -87,7 +87,7 @@ export default function Gallery() {
                                             <li>
                                                 <div className="tw-service-gallery-thumb">
                                                     <a className="elem" href="images/gallery/thumb/pic5.jpg" title="Title 5" data-lcl-author="" data-lcl-thumb="images/gallery/thumb/pic5.jpg">
-                                                        <img src={process.env.PUBLIC_URL+`assets/images/gallery/thumb/pic5.jpeg`} alt="" style={{objectFit:'cover', aspectRatio:'1/1', width:'auto', height:'auto'}}/>
+                                                        <img src={process.env.PUBLIC_URL+`/assets/images/gallery/thumb/pic5.jpeg`} alt="" style={{objectFit:'cover', aspectRatio:'1/1', width:'auto', height:'auto'}}/>
                                                             <i className="fa fa-file-image-o"></i>
                                                     </a>
                                                 </div>
@@ -96,7 +96,7 @@ export default function Gallery() {
                                             <li>
                                                 <div className="tw-service-gallery-thumb">
                                                     <a className="elem" href="images/gallery/thumb/pic6.jpg" title="Title 6" data-lcl-author="" data-lcl-thumb="images/gallery/thumb/pic6.jpg">
-                                                        <img src={process.env.PUBLIC_URL+`assets/images/gallery/thumb/pic6.jpeg`} alt="" style={{objectFit:'cover', aspectRatio:'1/1', width:'auto', height:'auto'}}/>
+                                                        <img src={process.env.PUBLIC_URL+`/assets/images/gallery/thumb/pic6.jpeg`} alt="" style={{objectFit:'cover', aspectRatio:'1/1', width:'auto', height:'auto'}}/>
                                                             <i className="fa fa-file-image-o"></i>
                                                     </a>
                                                 </div>
@@ -104,7 +104,7 @@ export default function Gallery() {
                                             <li>
                                                 <div className="tw-service-gallery-thumb">
                                                     <a className="elem" href="images/gallery/thumb/pic1.jpg" title="Title 1" data-lcl-author="" data-lcl-thumb="images/gallery/thumb/pic7.jpg">
-                                                        <img src={process.env.PUBLIC_URL+`assets/images/gallery/thumb/pic7.jpeg`} alt="" style={{objectFit:'cover', aspectRatio:'1/1', width:'auto', height:'auto'}}/>
+                                                        <img src={process.env.PUBLIC_URL+`/assets/images/gallery/thumb/pic7.jpeg`} alt="" style={{objectFit:'cover', aspectRatio:'1/1', width:'auto', height:'auto'}}/>
                                                             <i className="fa fa-file-image-o"></i>
                                                     </a>
                                                 </div>
@@ -113,7 +113,7 @@ export default function Gallery() {
                                             <li>
                                                 <div className="tw-service-gallery-thumb">
                                                     <a className="elem" href="images/gallery/thumb/pic2.jpg" title="Title 2" data-lcl-author="" data-lcl-thumb="images/gallery/thumb/pic8.jpg">
-                                                        <img src={process.env.PUBLIC_URL+`assets/images/gallery/thumb/pic8.jpeg`} alt="" style={{objectFit:'cover', aspectRatio:'1/1', width:'auto', height:'auto'}}/>
+                                                        <img src={process.env.PUBLIC_URL+`/assets/images/gallery/thumb/pic8.jpeg`} alt="" style={{objectFit:'cover', aspectRatio:'1/1', width:'auto', height:'auto'}}/>
                                                             <i className="fa fa-file-image-o"></i>
                                                     </a>
                                                 </div>
@@ -122,7 +122,7 @@ export default function Gallery() {
                                             <li>
                                                 <div className="tw-service-gallery-thumb ">
                                                     <a className="elem" href="images/gallery/thumb/pic3.jpg" title="Title 3" data-lcl-author="" data-lcl-thumb="images/gallery/thumb/pic9.jpg">
-                                                        <img src={process.env.PUBLIC_URL+`assets/images/gallery/thumb/pic9.jpeg`} alt="" style={{objectFit:'cover', aspectRatio:'1/1', width:'auto', height:'auto'}}/>
+                                                        <img src={process.env.PUBLIC_URL+`/assets/images/gallery/thumb/pic9.jpeg`} alt="" style={{objectFit:'cover', aspectRatio:'1/1', width:'auto', height:'auto'}}/>
                                                             <i className="fa fa-file-image-o"></i>
                                                     </a>
                                                 </div>
@@ -131,7 +131,7 @@ export default function Gallery() {
                                             <li>
                                                 <div className="tw-service-gallery-thumb">
                                                     <a className="elem" href="images/gallery/thumb/pic4.jpg" title="Title 4" data-lcl-author="" data-lcl-thumb="images/gallery/thumb/pic10.jpg">
-                                                        <img src={process.env.PUBLIC_URL+`assets/images/gallery/thumb/pic10.jpeg`} alt="" style={{objectFit:'cover', aspectRatio:'1/1', width:'auto', height:'auto'}}/>
+                                                        <img src={process.env.PUBLIC_URL+`/assets/images/gallery/thumb/pic10.jpeg`} alt="" style={{objectFit:'cover', aspectRatio:'1/1', width:'auto', height:'auto'}}/>
                                                             <i className="fa fa-file-image-o"></i>
                                                     </a>
                                                 </div>
@@ -140,7 +140,7 @@ export default function Gallery() {
                                             <li>
                                                 <div className="tw-service-gallery-thumb">
                                                     <a className="elem" href="images/gallery/thumb/pic5.jpg" title="Title 5" data-lcl-author="" data-lcl-thumb="images/gallery/thumb/pic11.jpg">
-                                                        <img src={process.env.PUBLIC_URL+`assets/images/gallery/thumb/pic11.jpeg`} alt="" style={{objectFit:'cover', aspectRatio:'1/1', width:'auto', height:'auto'}}/>
+                                                        <img src={process.env.PUBLIC_URL+`/assets/images/gallery/thumb/pic11.jpeg`} alt="" style={{objectFit:'cover', aspectRatio:'1/1', width:'auto', height:'auto'}}/>
                                                             <i className="fa fa-file-image-o"></i>
                                                     </a>
                                                 </div>
@@ -149,7 +149,7 @@ export default function Gallery() {
                                             <li>
                                                 <div className="tw-service-gallery-thumb">
                                                     <a className="elem" href="images/gallery/thumb/pic6.jpg" title="Title 6" data-lcl-author="" data-lcl-thumb="images/gallery/thumb/pic12.jpg">
-                                                        <img src={process.env.PUBLIC_URL+`assets/images/gallery/thumb/pic12.jpeg`} alt="" style={{objectFit:'cover', aspectRatio:'1/1', width:'auto', height:'auto'}}/>
+                                                        <img src={process.env.PUBLIC_URL+`/assets/images/gallery/thumb/pic12.jpeg`} alt="" style={{objectFit:'cover', aspectRatio:'1/1', width:'auto', height:'auto'}}/>
                                                             <i className="fa fa-file-image-o"></i>
                                                     </a>
                                                 </div>

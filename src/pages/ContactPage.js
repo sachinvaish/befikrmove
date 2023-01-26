@@ -6,7 +6,7 @@ export default function ContactPage() {
         <div className="page-content">
 
             {/* <!-- INNER PAGE BANNER --> */}
-            <div className="wt-bnr-inr overlay-wraper bg-center" style={{backgroundImage:`url('${process.env.PUBLIC_URL}assets/images/banner/1.jpg)`}}>
+            <div className="wt-bnr-inr overlay-wraper bg-center" style={{backgroundImage:`url('${process.env.PUBLIC_URL}/assets/images/banner/1.jpg)`}}>
                 <div className="overlay-main site-bg-sky opacity-08"></div>
                 <div className="container">
                     <div className="wt-bnr-inr-entry">
@@ -91,7 +91,7 @@ export default function ContactPage() {
                                     </div>
 
                                     <div className="col-lg-4 col-md-12">
-                                        <div className="contact-info  site-bg-dark bg-no-repeat bg-bottom-left" style={{backgroundImage:`url('${process.env.PUBLIC_URL}assets/images/background/contact-bg.png')`}}>
+                                        <div className="contact-info  site-bg-dark bg-no-repeat bg-bottom-left" style={{backgroundImage:`url('${process.env.PUBLIC_URL}/assets/images/background/contact-bg.png')`}}>
                                             {/* <!-- TITLE START--> */}
                                             <div className="section-head-small white mb-4">
                                                 <h3 className="wt-title">Let's get in touch</h3>
@@ -102,7 +102,7 @@ export default function ContactPage() {
 
                                                 <div className="c-info-column">
                                                     <div className="c-info-icon fa fa-map-marker"><span></span></div>
-                                                    <p>1363-1385 Sunset Blvd Los Angeles, CA 90026, USA</p>
+                                                    <p>India</p>
                                                 </div>
 
                                                 <div className="c-info-column">

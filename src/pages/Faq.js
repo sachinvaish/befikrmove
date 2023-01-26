@@ -5,7 +5,7 @@ export default function Faq() {
     <div className="page-content">
 
             {/* <!-- INNER PAGE BANNER --> */}
-            <div className="wt-bnr-inr overlay-wraper bg-center" style={{backgroundImage:`url(${process.env.PUBLIC_URL}assets/images/banner/1.jpg)`}}>
+            <div className="wt-bnr-inr overlay-wraper bg-center" style={{backgroundImage:`url(${process.env.PUBLIC_URL}/assets/images/banner/1.jpg)`}}>
             	<div className="overlay-main site-bg-sky opacity-08"></div>
                 <div className="container">
                     <div className="wt-bnr-inr-entry">
