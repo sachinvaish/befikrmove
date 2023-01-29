@@ -4,28 +4,6 @@ export default function Footer() {
   return (
     <footer className="footer-dark">
 
-            {/* <!-- NEWS LETTER SECTION START --> */}
-            <div className="ftr-nw-ltr site-bg-white">
-                
-                    <div className="ftr-nw-ltr-inner site-bg-primary">
-                        <div className="container">
-                            <div className="ftr-nw-img">
-                                <img src={process.env.PUBLIC_URL+`/assets/images/news-l-bg.png`} alt=""/>
-                            </div>
-                            <div className="ftr-nw-content">
-                                <div className="ftr-nw-title">Subscribe for offers and news</div>
-                                <div className="ftr-nw-form">
-                                    <form>
-                                        <input name="news-letter" className="form-control" placeholder="Enter Your Email" type="text"/>
-                                        <button className="ftr-nw-subcribe-btn">Subscribe Now</button>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-            </div>
-            {/* <!-- NEWS LETTER SECTION END --> */}
-
             <div className="ftr-bg"  style={{backgroundImage: `url('${process.env.PUBLIC_URL}/assets/images/f-bg.jpg')`}}>
                 {/* <!-- FOOTER BLOCKES START -->   */}
                 <div className="footer-top">

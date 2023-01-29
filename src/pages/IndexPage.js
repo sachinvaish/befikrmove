@@ -1,4 +1,4 @@
-import React,{useEffect, useState} from 'react';
+import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 export default function IndexPage() {
@@ -7,8 +7,8 @@ export default function IndexPage() {
     const navigate = useNavigate();
 
     useEffect(() => {
-      setKey(Math.random())
-      console.log('key=',key)
+        setKey(Math.random())
+        console.log('key=', key)
     }, []);
     // console.log('public url is');
     // console.log(process.env.PUBLIC_URL);
@@ -35,22 +35,22 @@ export default function IndexPage() {
                                                     The World
                                                 </h2>
                                                 <p>There are many variations of passages of worem Ipsum available, but the majority</p>
-                                                <button onClick={()=>navigate('/services')} className="h-bnr-btn">View Services</button>
+                                                <button onClick={() => navigate('/services')} className="h-bnr-btn">View Services</button>
                                             </div>
 
                                         </div>
                                         <div className="h-banner-right"  >
                                             <div className="h-bnr-r-inner">
                                                 <div className="h-bnr-media">
-                                                    <img src={process.env.PUBLIC_URL+`/assets/images/main-slider/slider1/plane.png`} alt="#" className="slide-top"/>
+                                                    <img src={process.env.PUBLIC_URL + `/assets/images/main-slider/slider1/plane.png`} alt="#" className="slide-top" />
                                                 </div>
-                                                <div className="h-bnr-animation bg-cover bg-center bg-image-moving" style={{backgroundImage:`url('${process.env.PUBLIC_URL}/assets/images/main-slider/slider1/bg1.jpg')`}} >
-                                            
+                                                <div className="h-bnr-animation bg-cover bg-center bg-image-moving" style={{ backgroundImage: `url('${process.env.PUBLIC_URL}/assets/images/main-slider/slider1/bg1.jpg')` }} >
+
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="cross-line-box left up-down"><img src={process.env.PUBLIC_URL+`/assets/images/main-slider/slider1/cross-line-box.png`} alt="#"/></div>
-                                        <div className="cross-line-box right up-down"><img src={process.env.PUBLIC_URL+`/assets/images/main-slider/slider1/cross-line-box.png`} alt="#"/></div>
+                                        <div className="cross-line-box left up-down"><img src={process.env.PUBLIC_URL + `/assets/images/main-slider/slider1/cross-line-box.png`} alt="#" /></div>
+                                        <div className="cross-line-box right up-down"><img src={process.env.PUBLIC_URL + `/assets/images/main-slider/slider1/cross-line-box.png`} alt="#" /></div>
                                         <div className="circle-left-top zoon-in-out"></div>
                                     </div>
                                 </div>
@@ -65,22 +65,22 @@ export default function IndexPage() {
                                                     Direction
                                                 </h2>
                                                 <p>There are many variations of passages of worem Ipsum available, but the majority</p>
-                                                <button onClick={()=>navigate('/services')} className="h-bnr-btn">View Services</button>
+                                                <button onClick={() => navigate('/services')} className="h-bnr-btn">View Services</button>
                                             </div>
 
                                         </div>
                                         <div className="h-banner-right" >
                                             <div className="h-bnr-r-inner">
                                                 <div className="h-bnr-media">
-                                                    <img src={process.env.PUBLIC_URL+`/assets/images/main-slider/slider1/truck.png`} alt="#" className="slide-top"/>
+                                                    <img src={process.env.PUBLIC_URL + `/assets/images/main-slider/slider1/truck.png`} alt="#" className="slide-top" />
                                                 </div>
-                                                <div className="h-bnr-animation bg-cover bg-center bg-image-moving" style={{backgroundImage:`url('${process.env.PUBLIC_URL}/assets/images/main-slider/slider1/bg2.jpg')`}}>
+                                                <div className="h-bnr-animation bg-cover bg-center bg-image-moving" style={{ backgroundImage: `url('${process.env.PUBLIC_URL}/assets/images/main-slider/slider1/bg2.jpg')` }}>
 
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="cross-line-box left up-down"><img src={process.env.PUBLIC_URL+`/assets/images/main-slider/slider1/cross-line-box.png`} alt="#"/></div>
-                                        <div className="cross-line-box right up-down"><img src={process.env.PUBLIC_URL+`/assets/images/main-slider/slider1/cross-line-box.png`} alt="#"/></div>
+                                        <div className="cross-line-box left up-down"><img src={process.env.PUBLIC_URL + `/assets/images/main-slider/slider1/cross-line-box.png`} alt="#" /></div>
+                                        <div className="cross-line-box right up-down"><img src={process.env.PUBLIC_URL + `/assets/images/main-slider/slider1/cross-line-box.png`} alt="#" /></div>
                                         <div className="circle-left-top zoon-in-out"></div>
                                     </div>
                                 </div>
@@ -95,22 +95,22 @@ export default function IndexPage() {
                                                     To Move
                                                 </h2>
                                                 <p>There are many variations of passages of worem Ipsum available, but the majority</p>
-                                                <button onClick={()=>navigate('/services')} className="h-bnr-btn">View Services</button>
+                                                <button onClick={() => navigate('/services')} className="h-bnr-btn">View Services</button>
                                             </div>
 
                                         </div>
                                         <div className="h-banner-right">
                                             <div className="h-bnr-r-inner">
                                                 <div className="h-bnr-media">
-                                                    <img src={process.env.PUBLIC_URL+`/assets/images/main-slider/slider1/ship.png`} alt="#" className="slide-top"/>
+                                                    <img src={process.env.PUBLIC_URL + `/assets/images/main-slider/slider1/ship.png`} alt="#" className="slide-top" />
                                                 </div>
-                                                <div className="h-bnr-animation bg-cover bg-center bg-image-moving" style={{backgroundImage:`url('${process.env.PUBLIC_URL}/assets/images/main-slider/slider1/bg3.jpg')`}} >
+                                                <div className="h-bnr-animation bg-cover bg-center bg-image-moving" style={{ backgroundImage: `url('${process.env.PUBLIC_URL}/assets/images/main-slider/slider1/bg3.jpg')` }} >
 
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="cross-line-box left up-down"><img src={process.env.PUBLIC_URL+`/assets/images/main-slider/slider1/cross-line-box.png`} alt="#"/></div>
-                                        <div className="cross-line-box right up-down"><img src={process.env.PUBLIC_URL+`/assets/images/main-slider/slider1/cross-line-box.png`} alt="#"/></div>
+                                        <div className="cross-line-box left up-down"><img src={process.env.PUBLIC_URL + `/assets/images/main-slider/slider1/cross-line-box.png`} alt="#" /></div>
+                                        <div className="cross-line-box right up-down"><img src={process.env.PUBLIC_URL + `/assets/images/main-slider/slider1/cross-line-box.png`} alt="#" /></div>
                                         <div className="circle-left-top zoon-in-out"></div>
                                     </div>
                                 </div>
@@ -133,8 +133,7 @@ export default function IndexPage() {
                                 <div className="wt-small-separator site-text-primary">
                                     <div>What we do!</div>
                                 </div>
-                                <h2 className="wt-title">Specialist Logistics Services</h2>
-                                <p className="section-head-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry the standard dummy text ever since the  when an printer took.</p>
+
                             </div>
                             {/* <!-- TITLE END--> */}
 
@@ -143,7 +142,7 @@ export default function IndexPage() {
                                 <div className="row">
                                     <div className="col-xl-5 col-lg-5 col-md-12">
                                         <div className="tw-what-wedo-media">
-                                            <img src={process.env.PUBLIC_URL+`/assets/images/icons/img1.png`} alt=""/>
+                                            <img src={process.env.PUBLIC_URL + `/assets/images/image-what-do.png`} alt="" />
                                         </div>
                                     </div>
 
@@ -153,16 +152,15 @@ export default function IndexPage() {
                                             <div className="service-icon-box-two">
 
                                                 <div className="service-icon-box-two-media">
-                                                    <img src={process.env.PUBLIC_URL+`/assets/images/icons/pic1.png`} alt="#"/>
+                                                    <img src={process.env.PUBLIC_URL + `/assets/images/icons/packing.png`} alt="#" />
                                                 </div>
 
                                                 <div className="service-icon-box-title">
                                                     <h3 className="wt-title">
                                                         <a href="services-detail.html">
-                                                            <span className="site-text-primary">01.</span>Road Freight</a>
+                                                            <span className="site-text-primary">01.</span>Packing</a>
                                                     </h3>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing
-                                                        elit, sed do eiusmod tempor incididunt </p>
+
                                                 </div>
 
                                             </div>
@@ -171,16 +169,15 @@ export default function IndexPage() {
                                             <div className="service-icon-box-two">
 
                                                 <div className="service-icon-box-two-media">
-                                                    <img src={process.env.PUBLIC_URL+`/assets/images/icons/pic2.png`} alt="#"/>
+                                                    <img src={process.env.PUBLIC_URL + `/assets/images/icons/moving.png`} alt="#" />
                                                 </div>
 
                                                 <div className="service-icon-box-title">
                                                     <h3 className="wt-title">
                                                         <a href="services-detail.html">
-                                                            <span className="site-text-primary">02.</span>Shipping Freight</a>
+                                                            <span className="site-text-primary">02.</span>Moving </a>
                                                     </h3>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing
-                                                        elit, sed do eiusmod tempor incididunt </p>
+
                                                 </div>
 
                                             </div>
@@ -189,16 +186,31 @@ export default function IndexPage() {
                                             <div className="service-icon-box-two">
 
                                                 <div className="service-icon-box-two-media">
-                                                    <img src={process.env.PUBLIC_URL+`/assets/images/icons/pic3.png`} alt="#"/>
+                                                    <img src={process.env.PUBLIC_URL + `/assets/images/icons/loading.png`} alt="#" />
                                                 </div>
 
                                                 <div className="service-icon-box-title">
                                                     <h3 className="wt-title">
                                                         <a href="services-detail.html">
-                                                            <span className="site-text-primary">03.</span>Air Freight</a>
+                                                            <span className="site-text-primary">03.</span>Loading</a>
                                                     </h3>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing
-                                                        elit, sed do eiusmod tempor incididunt </p>
+
+                                                </div>
+
+                                            </div>
+                                            {/* <!-- COLUMNS 3 --> */}
+                                            <div className="service-icon-box-two">
+
+                                                <div className="service-icon-box-two-media">
+                                                    <img src={process.env.PUBLIC_URL + `/assets/images/icons/delivery.png`} alt="#" />
+                                                </div>
+
+                                                <div className="service-icon-box-title">
+                                                    <h3 className="wt-title">
+                                                        <a href="services-detail.html">
+                                                            <span className="site-text-primary">04.</span>Delivery</a>
+                                                    </h3>
+
                                                 </div>
 
                                             </div>
@@ -214,43 +226,41 @@ export default function IndexPage() {
 
                     {/* <!-- WHY CHOOSE US SECTION START --> */}
                     <div className="section-full-wrap site-bg-gray tw-why-choose-area">
-                        <div className="section-full p-t120 p-b120 tw-why-choose-area-top bg-cover bg-no-repeat" style={{backgroundImage:`url('${process.env.PUBLIC_URL}/assets/images/background/bg-1.jpg')`}}>
+                        <div className="section-full p-t120 p-b120 tw-why-choose-area-top bg-cover bg-no-repeat" style={{ backgroundImage: `url('${process.env.PUBLIC_URL}/assets/images/background/bg-1.jpg')` }}>
                             <div className="container">
 
                                 <div className="tw-why-choose-section">
 
                                     <div className="row">
-                                        <div className="col-xl-5 col-lg-5 col-md-12">
+                                        <div className="col-xl-6 col-lg-6 col-md-12">
                                             <div className="tw-why-choose-left">
                                                 {/* <!-- TITLE START--> */}
                                                 <div className="section-head left wt-small-separator-outer">
                                                     <div className="wt-small-separator site-text-primary">
                                                         <div>Why Choose Us</div>
                                                     </div>
-                                                    <h2 className="wt-title">We Are Professional Logistics & cargo Agency</h2>
+                                                    <h2 className="wt-title">We Are Professional Packers Movers Agency</h2>
                                                 </div>
                                                 {/* <!-- TITLE END--> */}
                                                 <strong>Sed ut perspiciatis unde omnis iste natus error volup tatem accusantium dolorem que laudantium, totam rem aperiam, eaque ipsa illo inventore.</strong>
                                                 <p className="section-head-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium, totam rem aperiam, que ipsa quae ab illo inventore veritatis quasi architecto beatae itae dicta sunt explicabo. Nemo enim ipsam voluptate voluptas sitr atur aut odit aut fugit, sed quia consequuntur magni dolores is eos qui ratione voluptatem sequi nesciunt. </p>
                                                 <div className="tw-why-choose-left-bottom">
                                                     <a href="about-1.html" className="btn-half site-button"><span>Learn More</span><em></em></a>
-                                                    <div className="sign-font">
-                                                        <span>Signature</span>
-                                                    </div>
+
                                                 </div>
                                             </div>
                                         </div>
 
-                                        <div className="col-xl-7 col-lg-7 col-md-12">
+                                        <div className="col-xl-6 col-lg-6 col-md-12">
                                             <div className="tw-why-choose-right">
                                                 <div className="tw-why-choose-media1 shine-effect">
                                                     <div className="shine-box">
-                                                        <img src={process.env.PUBLIC_URL+`/assets/images/w-choose/pic1.jpg`} alt="" />
+                                                        <img src={process.env.PUBLIC_URL + `/assets/images/w-choose/pic1.jpg`} alt="" />
                                                     </div>
                                                 </div>
                                                 <div className="tw-why-choose-media2 slide-top shine-effect">
                                                     <div className="shine-box">
-                                                        <img src={process.env.PUBLIC_URL+`/assets/images/w-choose/pic2.jpg`} alt=""/>
+                                                        <img src={process.env.PUBLIC_URL + `/assets/images/img-boy.png`} alt="" />
                                                     </div>
                                                 </div>
                                             </div>
@@ -258,7 +268,7 @@ export default function IndexPage() {
                                     </div>
                                     <div className="tw-hilite-text-wrap2">
                                         <div className="tw-hilite-text">
-                                            <span>Logistics</span>
+                                            <span>Befikrmove</span>
                                         </div>
                                     </div>
                                 </div>
@@ -268,10 +278,10 @@ export default function IndexPage() {
                         <div className="tw-any-help-section">
                             <div className="container">
                                 <div className="tw-any-help-inner">
-                                    <img src={process.env.PUBLIC_URL+`/assets/images/w-choose/qt-icon.png`} alt=""/>
-                                        <span className="tw-24">24/7 Active Suport Team</span>
-                                        <span className="tw-help-title">Need Immediate Support Or Any Help?</span>
-                                        <span className="tw-help-number">(2 900 234 4241)</span>
+                                    <img src={process.env.PUBLIC_URL + `/assets/images/w-choose/qt-icon.png`} alt="" />
+                                    <span className="tw-24">24/7 Active Suport Team</span>
+                                    <span className="tw-help-title">Need Immediate Support Or Any Help?</span>
+                                    <span className="tw-help-number">(77640-76100)</span>
                                 </div>
                             </div>
                         </div>
@@ -280,7 +290,7 @@ export default function IndexPage() {
                     {/* <!-- WHY CHOOSE US SECTION END --> */}
 
                     {/* <!-- BOOKING SECTION START --> */}
-                    <div className="section-full p-t120 p-b90 site-bg-gray tw-booking-area" style={{backgroundImage:`url('${process.env.PUBLIC_URL}/assets/images/booking/bg-map.png')`}} >
+                    <div className="section-full p-t120 p-b90 site-bg-gray tw-booking-area" style={{ backgroundImage: `url('${process.env.PUBLIC_URL}/assets/images/booking/bg-map.png')` }}>
 
                         <div className="container">
                             {/* <!-- TITLE START--> */}
@@ -289,7 +299,7 @@ export default function IndexPage() {
                                     <div>Request A Quote</div>
                                 </div>
                                 <h2 className="wt-title">Booking For Product Transformation</h2>
-                                <p className="section-head-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry the standard dummy text ever since the  when an printer took.</p>
+
                             </div>
                             {/* <!-- TITLE END--> */}
                         </div>
@@ -302,7 +312,7 @@ export default function IndexPage() {
                                     <div className="col-xl-3 col-lg-3 col-md-12">
                                         <div className="tw-booking-media">
                                             <div className="media">
-                                                <img src={process.env.PUBLIC_URL+`/assets/images/booking/pic1.png`} alt="#"/>
+                                                <img src={process.env.PUBLIC_URL + `/assets/images/booking/pic1.png`} alt="#" />
                                             </div>
                                         </div>
                                     </div>
@@ -315,16 +325,16 @@ export default function IndexPage() {
                                                     <div className="list-group">
                                                         <a href="#" className="list-group-item active text-center">
                                                             <div className="media">
-                                                                <img src={process.env.PUBLIC_URL+`/assets/images/booking/icon1.png`} alt=""/>
+                                                                <img src={process.env.PUBLIC_URL + `/assets/images/booking/icon1.png`} alt="" />
                                                             </div>
                                                             <span>Request A Quote</span>
                                                         </a>
-                                                        <a href="#" className="list-group-item text-center">
+                                                        {/* <!--<a href="#" className="list-group-item text-center">
                                                             <div className="media">
-                                                                <img src={process.env.PUBLIC_URL+`/assets/images/booking/icon2.png`} alt=""/>
+                                                                <img src="images/booking/icon2.png" alt="">
                                                             </div>
                                                             <span>Track & Trace</span>
-                                                        </a>
+                                                        </a>--> */}
 
                                                     </div>
                                                 </div>
@@ -335,19 +345,19 @@ export default function IndexPage() {
 
                                                             <div className="row">
 
-                                                                <div className="col-lg-4 col-md-4">
+                                                                <div className="col-lg-6 col-md-6">
                                                                     <div className="mb-3">
-                                                                        <input name="username" type="text" required className="form-control" placeholder="Name"/>
+                                                                        <input name="username" type="text" required className="form-control" placeholder="Name" />
                                                                     </div>
                                                                 </div>
-                                                                <div className="col-lg-4 col-md-4">
+                                                                <div className="col-lg-6 col-md-6">
                                                                     <div className="mb-3">
-                                                                        <input name="email" type="text" required className="form-control" placeholder="Email"/>
+                                                                        <input name="email" type="text" required className="form-control" placeholder="Email" />
                                                                     </div>
                                                                 </div>
-                                                                <div className="col-lg-4 col-md-4">
+                                                                <div className="col-lg-6 col-md-6">
                                                                     <div className="mb-3">
-                                                                        <input name="phone" type="text" required className="form-control" placeholder="Phone"/>
+                                                                        <input name="phone" type="text" required className="form-control" placeholder="Phone" />
                                                                     </div>
                                                                 </div>
 
@@ -355,79 +365,22 @@ export default function IndexPage() {
                                                                 <div className="col-lg-6 col-md-6">
                                                                     <div className="mb-3">
                                                                         <select id="Freight_Type" className="form-select">
-                                                                            <option >Freight Type</option>
+                                                                            <option >Service Type</option>
                                                                             <option>...</option>
                                                                         </select>
                                                                     </div>
                                                                 </div>
                                                                 <div className="col-lg-6 col-md-6">
                                                                     <div className="mb-3">
-                                                                        <input name="username" type="text" required className="form-control" placeholder="City Of Departure"/>
+                                                                        <input name="username" type="text" required className="form-control" placeholder="City Of Departure" />
                                                                     </div>
                                                                 </div>
 
                                                                 <div className="col-lg-6 col-md-6">
                                                                     <div className="mb-3">
-                                                                        <input name="username" type="text" required className="form-control" placeholder="Delivery City"/>
+                                                                        <input name="username" type="text" required className="form-control" placeholder="Delivery City" />
                                                                     </div>
                                                                 </div>
-
-                                                                <div className="col-lg-6 col-md-6">
-                                                                    <div className="mb-3">
-                                                                        <select id="Incoterms" className="form-select">
-                                                                            <option >Incoterms</option>
-                                                                            <option>...</option>
-                                                                        </select>
-                                                                    </div>
-                                                                </div>
-
-
-                                                                <div className="col-lg-3 col-md-3">
-                                                                    <div className="mb-3">
-                                                                        <input name="username" type="text" required className="form-control" placeholder="Weight"/>
-                                                                    </div>
-                                                                </div>
-                                                                <div className="col-lg-3 col-md-3">
-                                                                    <div className="mb-3">
-                                                                        <input name="email" type="text" required className="form-control" placeholder="Height"/>
-                                                                    </div>
-                                                                </div>
-                                                                <div className="col-lg-3 col-md-3">
-                                                                    <div className="mb-3">
-                                                                        <input name="phone" type="text" required className="form-control" placeholder="Width"/>
-                                                                    </div>
-                                                                </div>
-                                                                <div className="col-lg-3 col-md-3">
-                                                                    <div className="mb-3">
-                                                                        <input name="phone" type="text" required className="form-control" placeholder="Length"/>
-                                                                    </div>
-                                                                </div>
-
-                                                                <div className="col-lg-12">
-                                                                    <div className="tw-inline-checked mt-2 mb-3">
-                                                                        <div className="mb-4 form-check">
-                                                                            <input type="checkbox" className="form-check-input" id="exampleCheck1"/>
-                                                                                <label className="form-check-label" htmlFor="exampleCheck1">Fragile</label>
-                                                                        </div>
-
-                                                                        <div className="mb-4 form-check">
-                                                                            <input type="checkbox" className="form-check-input" id="exampleCheck2"/>
-                                                                                <label className="form-check-label" htmlFor="exampleCheck2">Express Delivery</label>
-                                                                        </div>
-
-                                                                        <div className="mb-4 form-check">
-                                                                            <input type="checkbox" className="form-check-input" id="exampleCheck3"/>
-                                                                                <label className="form-check-label" htmlFor="exampleCheck3">Insurance</label>
-                                                                        </div>
-
-                                                                        <div className="mb-4 form-check">
-                                                                            <input type="checkbox" className="form-check-input" id="exampleCheck4"/>
-                                                                                <label className="form-check-label" htmlFor="exampleCheck4">Packaging</label>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-
-
 
                                                                 <div className="col-lg-12 col-md-12">
                                                                     <div className="tw-booking-footer">
@@ -472,23 +425,23 @@ export default function IndexPage() {
                                                                 <div className="col-lg-12">
                                                                     <div className="tw-inline-checked mt-2 mb-3">
                                                                         <div className="mb-4 form-check">
-                                                                            <input type="checkbox" className="form-check-input" id="Fragile1"/>
-                                                                                <label className="form-check-label" htmlFor="Fragile1">Fragile</label>
+                                                                            <input type="checkbox" className="form-check-input" id="Fragile1" />
+                                                                            <label className="form-check-label" htmlFor="Fragile1">Fragile</label>
                                                                         </div>
 
                                                                         <div className="mb-4 form-check">
-                                                                            <input type="checkbox" className="form-check-input" id="Express2"/>
-                                                                                <label className="form-check-label" htmlFor="Express2">Express Delivery</label>
+                                                                            <input type="checkbox" className="form-check-input" id="Express2" />
+                                                                            <label className="form-check-label" htmlFor="Express2">Express Delivery</label>
                                                                         </div>
 
                                                                         <div className="mb-4 form-check">
-                                                                            <input type="checkbox" className="form-check-input" id="Insurance3"/>
-                                                                                <label className="form-check-label" htmlFor="Insurance3">Insurance</label>
+                                                                            <input type="checkbox" className="form-check-input" id="Insurance3" />
+                                                                            <label className="form-check-label" htmlFor="Insurance3">Insurance</label>
                                                                         </div>
 
                                                                         <div className="mb-4 form-check">
-                                                                            <input type="checkbox" className="form-check-input" id="packaging4"/>
-                                                                                <label className="form-check-label" htmlFor="packaging4">Packaging</label>
+                                                                            <input type="checkbox" className="form-check-input" id="packaging4" />
+                                                                            <label className="form-check-label" htmlFor="packaging4">Packaging</label>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -524,81 +477,8 @@ export default function IndexPage() {
                     </div>
                     {/* <!-- BOOKING SECTION END --> */}
 
-                    {/* <!-- Estimation SECTION START --> */}
-                    <div className="section-full p-t120 site-bg-white  tw-estimation-area">
-
-                        <div className="container">
-
-                            <div className="wt-separator-two-part">
-                                <div className="row wt-separator-two-part-row">
-                                    <div className="col-xl-6 col-lg-6 col-md-12 wt-separator-two-part-left">
-                                        {/* <!-- TITLE START--> */}
-                                        <div className="section-head left wt-small-separator-outer">
-                                            <div className="wt-small-separator site-text-primary">
-                                                <div>Estimation</div>
-                                            </div>
-                                            <h2 className="wt-title">Has a wide range of solutions</h2>
-                                            <p className="section-head-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry the standard dummy text ever since the  when an printer took.</p>
-                                        </div>
-                                        {/* <!-- TITLE END--> */}
-                                    </div>
-                                    <div className="col-xl-6 col-lg-6 col-md-12 wt-separator-two-part-right text-right">
-                                        <a href="about-1.html" className="btn-half site-button"><span>Read More</span><em></em></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="tw-estimation-section bg-cover bg-no-repeat" style={{backgroundImage:`url('${process.env.PUBLIC_URL}/assets/images/background/bg-2.jpg')`}}>
-                            <div className="container">
-                                <div className="row">
-                                    {/* <!--1--> */}
-                                    <div className="col-xl-4 col-lg-4 col-md-6">
-                                        <div className="tw-est-section-block">
-                                            <div className="tw-est-section-block-content">
-                                                <span className="tw-est-section-number">01</span>
-                                                <h3 className="tw-title">Solutions and specialized expertise</h3>
-                                                <p>Our aim is to optimize and improve your supply chain so that we can give you the best service</p>
-                                                <a href="about-1.html" className="site-button-2-outline"><i className="fa fa-angle-right"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    {/* <!--2--> */}
-                                    <div className="col-xl-4 col-lg-4 col-md-6">
-                                        <div className="tw-est-section-block">
-                                            <div className="tw-est-section-block-content">
-                                                <span className="tw-est-section-number">02</span>
-                                                <h3 className="tw-title">Multiple warehouses</h3>
-                                                <p>We provide multiple drop off and pickup locations so you don't have to worry. And you should not face any kind...</p>
-                                                <a href="about-1.html" className="site-button-2-outline"><i className="fa fa-angle-right"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    {/* <!--3--> */}
-                                    <div className="col-xl-4 col-lg-4 col-md-12">
-                                        <div className="tw-est-section-block">
-                                            <div className="tw-est-section-block-content">
-                                                <span className="tw-est-section-number">03</span>
-                                                <h3 className="tw-title">Tracking made easy</h3>
-                                                <p>A tracking number for the entire process.
-                                                    so that you can find the exact position. it
-                                                    will help you</p>
-                                                <a href="about-1.html" className="site-button-2-outline"><i className="fa fa-angle-right"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                        </div>
-
-
-                    </div>
-                    {/* <!-- Estimation SECTION END --> */}
-
                     {/* <!-- TESTIMONIALS SECTION START --> */}
-                    <div className="section-full bg-cover p-t120 p-b90 bg-cover tw-testimonial-1-area" style={{backgroundImage:`url('${process.env.PUBLIC_URL}/assets/images/background/bg-6.jpg')`}} >
+                    <div className="section-full bg-cover p-t120 p-b90 bg-cover tw-testimonial-1-area" style={{ backgroundImage: `url('${process.env.PUBLIC_URL}/assets/images/background/bg-6.jpg')` }}>
                         <div className="tw-testimonial-inner-wrap">
                             <div className="container">
                                 <div className="row">
@@ -617,38 +497,38 @@ export default function IndexPage() {
                                                 <ul>
                                                     <li>
                                                         <div className="logo-media">
-                                                            <a href="services-1.html"><img src={process.env.PUBLIC_URL+`/assets/images/client-logo/w1.png`} alt=""/></a>
+                                                            <a href="services-1.html"><img src={process.env.PUBLIC_URL + `/assets/images/client-logo/w1.png`} alt="" /></a>
                                                         </div>
                                                     </li>
                                                     <li>
                                                         <div className="logo-media">
-                                                            <a href="services-1.html"><img src={process.env.PUBLIC_URL+`/assets/images/client-logo/w2.png`} alt=""/></a>
+                                                            <a href="services-1.html"><img src={process.env.PUBLIC_URL + `/assets/images/client-logo/w2.png`} alt="" /></a>
                                                         </div>
                                                     </li>
                                                     <li>
                                                         <div className="logo-media">
-                                                            <a href="services-1.html"><img src={process.env.PUBLIC_URL+`/assets/images/client-logo/w3.png`} alt=""/></a>
+                                                            <a href="services-1.html"><img src={process.env.PUBLIC_URL + `/assets/images/client-logo/w3.png`} alt="" /></a>
                                                         </div>
                                                     </li>
                                                     <li>
                                                         <div className="logo-media">
-                                                            <a href="services-1.html"><img src={process.env.PUBLIC_URL+`/assets/images/client-logo/w4.png`} alt=""/></a>
+                                                            <a href="services-1.html"><img src={process.env.PUBLIC_URL + `/assets/images/client-logo/w4.png`} alt="" /></a>
                                                         </div>
                                                     </li>
                                                     <li>
                                                         <div className="logo-media">
-                                                            <a href="services-1.html"><img src={process.env.PUBLIC_URL+`/assets/images/client-logo/w5.png`} alt=""/></a>
+                                                            <a href="services-1.html"><img src={process.env.PUBLIC_URL + `/assets/images/client-logo/w5.png`} alt="" /></a>
                                                         </div>
                                                     </li>
                                                     <li>
                                                         <div className="logo-media">
-                                                            <a href="services-1.html"><img src={process.env.PUBLIC_URL+`/assets/images/client-logo/w6.png`} alt=""/></a>
+                                                            <a href="services-1.html"><img src={process.env.PUBLIC_URL + `/assets/images/client-logo/w6.png`} alt="" /></a>
                                                         </div>
                                                     </li>
 
                                                 </ul>
                                                 <div className="truck-img">
-                                                    <img src={process.env.PUBLIC_URL+`/assets/images/truck.png`} alt="#"/>
+                                                    <img src={process.env.PUBLIC_URL + `/assets/images/truck.png`} alt="#" />
                                                 </div>
                                             </div>
                                         </div>
@@ -663,22 +543,22 @@ export default function IndexPage() {
 
                                                     <div className="slick-item">
                                                         <div className="slick-testimonials-thumb">
-                                                            <img src={process.env.PUBLIC_URL+`/assets/images/testimonials/pic1.jpg`} alt="one"/>
+                                                            <img src={process.env.PUBLIC_URL + `/assets/images/testimonials/pic1.jpg`} alt="one" />
                                                         </div>
                                                     </div>
                                                     <div className="slick-item">
                                                         <div className="slick-testimonials-thumb">
-                                                            <img src={process.env.PUBLIC_URL+`/assets/images/testimonials/pic2.jpg`} alt="two"/>
+                                                            <img src={process.env.PUBLIC_URL + `/assets/images/testimonials/pic2.jpg`} alt="two" />
                                                         </div>
                                                     </div>
                                                     <div className="slick-item">
                                                         <div className="slick-testimonials-thumb">
-                                                            <img src={process.env.PUBLIC_URL+`/assets/images/testimonials/pic3.jpg`} alt="three"/>
+                                                            <img src={process.env.PUBLIC_URL + `/assets/images/testimonials/pic3.jpg`} alt="three" />
                                                         </div>
                                                     </div>
                                                     <div className="slick-item">
                                                         <div className="slick-testimonials-thumb">
-                                                            <img src={process.env.PUBLIC_URL+`/assets/images/testimonials/pic4.jpg`} alt="four"/>
+                                                            <img src={process.env.PUBLIC_URL + `/assets/images/testimonials/pic4.jpg`} alt="four" />
                                                         </div>
                                                     </div>
                                                 </div>
@@ -687,7 +567,7 @@ export default function IndexPage() {
                                                     <div className="slick-item">
                                                         <div className="tw-testimonials1-cell">
                                                             <div className="tw-testimonials1-text">
-                                                                <span className="tw-testimonials1-quote"><img src={process.env.PUBLIC_URL+`/assets/images/quote.png`} alt=""/></span>
+                                                                <span className="tw-testimonials1-quote"><img src={process.env.PUBLIC_URL + `/assets/images/quote.png`} alt="" /></span>
                                                                 Nemo enim ipsam voluptate voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratio ne voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi
                                                             </div>
                                                             <div className="tw-testimonials1-name">Peter Len</div>
@@ -697,7 +577,7 @@ export default function IndexPage() {
                                                     <div className="slick-item">
                                                         <div className="tw-testimonials1-cell">
                                                             <div className="tw-testimonials1-text">
-                                                                <span className="tw-testimonials1-quote"><img src={process.env.PUBLIC_URL+`/assets/images/quote.png`} alt=""/></span>
+                                                                <span className="tw-testimonials1-quote"><img src={process.env.PUBLIC_URL + `/assets/images/quote.png`} alt="" /></span>
                                                                 Nemo enim ipsam voluptate voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratio ne voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi
                                                             </div>
                                                             <div className="tw-testimonials1-name">Giselle</div>
@@ -707,7 +587,7 @@ export default function IndexPage() {
                                                     <div className="slick-item">
                                                         <div className="tw-testimonials1-cell">
                                                             <div className="tw-testimonials1-text">
-                                                                <span className="tw-testimonials1-quote"><img src={process.env.PUBLIC_URL+`/assets/images/quote.png`} alt=""/></span>
+                                                                <span className="tw-testimonials1-quote"><img src={process.env.PUBLIC_URL + `/assets/images/quote.png`} alt="" /></span>
                                                                 Nemo enim ipsam voluptate voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratio ne voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi
                                                             </div>
                                                             <div className="tw-testimonials1-name">Josephine</div>
@@ -717,7 +597,7 @@ export default function IndexPage() {
                                                     <div className="slick-item">
                                                         <div className="tw-testimonials1-cell">
                                                             <div className="tw-testimonials1-text">
-                                                                <span className="tw-testimonials1-quote"><img src={process.env.PUBLIC_URL+`/assets/images/quote.png`} alt=""/></span>
+                                                                <span className="tw-testimonials1-quote"><img src={process.env.PUBLIC_URL + `/assets/images/quote.png`} alt="" /></span>
                                                                 Nemo enim ipsam voluptate voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratio ne voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi
                                                             </div>
                                                             <div className="tw-testimonials1-name">Penelope</div>
@@ -772,7 +652,7 @@ export default function IndexPage() {
                                                         </div>
                                                     </div>
                                                     <div className="service-media">
-                                                        <img src={process.env.PUBLIC_URL+`/assets/images/s-gallery/1.jpg`} alt=""/>
+                                                        <img src={process.env.PUBLIC_URL + `/assets/images/s-gallery/1.jpg`} alt="" />
                                                     </div>
                                                 </div>
                                             </div>
@@ -793,7 +673,7 @@ export default function IndexPage() {
                                                         </div>
                                                     </div>
                                                     <div className="service-media">
-                                                        <img src={process.env.PUBLIC_URL+`/assets/images/s-gallery/2.jpg`} alt=""/>
+                                                        <img src={process.env.PUBLIC_URL + `/assets/images/s-gallery/2.jpg`} alt="" />
                                                     </div>
                                                 </div>
                                             </div>
@@ -814,7 +694,7 @@ export default function IndexPage() {
                                                         </div>
                                                     </div>
                                                     <div className="service-media">
-                                                        <img src={process.env.PUBLIC_URL+`/assets/images/s-gallery/3.jpg`} alt=""/>
+                                                        <img src={process.env.PUBLIC_URL + `/assets/images/s-gallery/3.jpg`} alt="" />
                                                     </div>
                                                 </div>
                                             </div>
@@ -835,7 +715,7 @@ export default function IndexPage() {
                                                         </div>
                                                     </div>
                                                     <div className="service-media">
-                                                        <img src={process.env.PUBLIC_URL+`/assets/images/s-gallery/4.jpg`} alt=""/>
+                                                        <img src={process.env.PUBLIC_URL + `/assets/images/s-gallery/4.jpg`} alt="" />
                                                     </div>
                                                 </div>
                                             </div>
@@ -856,7 +736,7 @@ export default function IndexPage() {
                                                         </div>
                                                     </div>
                                                     <div className="service-media">
-                                                        <img src={process.env.PUBLIC_URL+`/assets/images/s-gallery/5.jpg`} alt=""/>
+                                                        <img src={process.env.PUBLIC_URL + `/assets/images/s-gallery/5.jpg`} alt="" />
                                                     </div>
                                                 </div>
                                             </div>
@@ -877,7 +757,7 @@ export default function IndexPage() {
                                                         </div>
                                                     </div>
                                                     <div className="service-media">
-                                                        <img src={process.env.PUBLIC_URL+`/assets/images/s-gallery/6.jpg`} alt=""/>
+                                                        <img src={process.env.PUBLIC_URL + `/assets/images/s-gallery/6.jpg`} alt="" />
                                                     </div>
                                                 </div>
                                             </div>
@@ -898,7 +778,7 @@ export default function IndexPage() {
                                                         </div>
                                                     </div>
                                                     <div className="service-media">
-                                                        <img src={process.env.PUBLIC_URL+`/assets/images/s-gallery/6.jpg`} alt=""/>
+                                                        <img src={process.env.PUBLIC_URL + `/assets/images/s-gallery/6.jpg`} alt="" />
                                                     </div>
                                                 </div>
                                             </div>
@@ -919,7 +799,7 @@ export default function IndexPage() {
                                                         </div>
                                                     </div>
                                                     <div className="service-media">
-                                                        <img src={process.env.PUBLIC_URL+`/assets/images/s-gallery/6.jpg`} alt=""/>
+                                                        <img src={process.env.PUBLIC_URL + `/assets/images/s-gallery/6.jpg`} alt="" />
                                                     </div>
                                                 </div>
                                             </div>
@@ -947,31 +827,12 @@ export default function IndexPage() {
 
                         <div className="container">
 
-                            <div className="wt-separator-two-part">
-                                <div className="row wt-separator-two-part-row">
-                                    <div className="col-xl-6 col-lg-6 col-md-12 wt-separator-two-part-left">
-                                        {/* <!-- TITLE START--> */}
-                                        <div className="section-head left wt-small-separator-outer">
-                                            <div className="wt-small-separator site-text-primary">
-                                                <div>Company Approch</div>
-                                            </div>
-                                            <h2 className="wt-title">Reliable Logistic & Transport Solutions</h2>
-                                        </div>
-                                        {/* <!-- TITLE END--> */}
-                                    </div>
-                                    <div className="col-xl-6 col-lg-6 col-md-12 wt-separator-two-part-right text-right">
-                                        <a href="about-1.html" className="btn-half site-button"><span>Read More</span><em></em></a>
-                                    </div>
-                                </div>
-                            </div>
-
-
                             <div className="tw-company-approch-section">
                                 <div className="tw-company-approch-inner">
                                     <div className="tw-company-years">
                                         <div className="light">
                                             <h1>35</h1>
-                                            <img src={process.env.PUBLIC_URL+`/assets/images/text-bg.jpg`} alt=""/>
+                                            <img src={process.env.PUBLIC_URL + `/assets/images/text-bg.jpg`} alt="" />
                                         </div>
                                         <div className="tw-company-info">
                                             <span>Year’s of experience in transport and logistics services</span>
@@ -984,7 +845,7 @@ export default function IndexPage() {
                                         <div className="col-lg-4 col-md-12">
                                             <div className="counter-outer-two">
                                                 <div className="tw-counter-media">
-                                                    <img src={process.env.PUBLIC_URL+`/assets/images/icons/c-pic1.png`} alt=""/>
+                                                    <img src={process.env.PUBLIC_URL + `/assets/images/icons/c-pic1.png`} alt="" />
                                                 </div>
                                                 <div className="icon-content">
                                                     <div className="tw-count-number site-text-primary"><span className="counter site-text-primary">195</span>+</div>
@@ -997,7 +858,7 @@ export default function IndexPage() {
                                         <div className="col-lg-4 col-md-12">
                                             <div className="counter-outer-two">
                                                 <div className="tw-counter-media">
-                                                    <img src={process.env.PUBLIC_URL+`/assets/images/icons/c-pic2.png`} alt=""/>
+                                                    <img src={process.env.PUBLIC_URL + `/assets/images/icons/c-pic2.png`} alt="" />
                                                 </div>
                                                 <div className="icon-content">
                                                     <div className="tw-count-number site-text-primary"><span className="counter site-text-primary">250</span>+</div>
@@ -1010,7 +871,7 @@ export default function IndexPage() {
                                         <div className="col-lg-4 col-md-12">
                                             <div className="counter-outer-two">
                                                 <div className="tw-counter-media">
-                                                    <img src={process.env.PUBLIC_URL+`/assets/images/icons/c-pic3.png`} alt=""/>
+                                                    <img src={process.env.PUBLIC_URL + `/assets/images/icons/c-pic3.png`} alt="" />
                                                 </div>
                                                 <div className="icon-content">
                                                     <div className="tw-count-number site-text-primary"><span className="counter site-text-primary">350</span>+</div>
@@ -1049,7 +910,7 @@ export default function IndexPage() {
                                         {/* <!--Block one--> */}
                                         <div className="blog-post blog-post-4-outer">
                                             <div className="wt-post-media wt-img-effect zoom-slow">
-                                                <a href="blog-single.html"><img src={process.env.PUBLIC_URL+`/assets/images/blog/latest/bg1.jpg`} alt=""/></a>
+                                                <a href="blog-single.html"><img src={process.env.PUBLIC_URL + `/assets/images/blog/latest/bg1.jpg`} alt=""/></a>
                                             </div>
                                             <div className="wt-post-info">
                                                 <div className="wt-post-meta ">
@@ -1078,7 +939,7 @@ export default function IndexPage() {
                                         {/* <!--Block two--> */}
                                         <div className="blog-post blog-post-4-outer">
                                             <div className="wt-post-media wt-img-effect zoom-slow">
-                                                <a href="blog-single.html"><img src={process.env.PUBLIC_URL+`/assets/images/blog/latest-2/l-1.jpg`} alt=""/></a>
+                                                <a href="blog-single.html"><img src={process.env.PUBLIC_URL + `/assets/images/blog/latest-2/l-1.jpg`} alt=""/></a>
                                             </div>
                                             <div className="wt-post-info">
                                                 <div className="wt-post-meta ">
@@ -1106,7 +967,7 @@ export default function IndexPage() {
                                         {/* <!--Block three--> */}
                                         <div className="blog-post blog-post-4-outer">
                                             <div className="wt-post-media wt-img-effect zoom-slow">
-                                                <a href="blog-single.html"><img src={process.env.PUBLIC_URL+`/assets/images/blog/latest/bg3.jpg`} alt=""/></a>
+                                                <a href="blog-single.html"><img src={process.env.PUBLIC_URL + `/assets/images/blog/latest/bg3.jpg`} alt=""/></a>
                                             </div>
                                             <div className="wt-post-info">
                                                 <div className="wt-post-meta ">
@@ -1137,92 +998,6 @@ export default function IndexPage() {
                         </div>
                     </div>
                     {/* <!-- OUR BLOG END --> */}
-
-                    {/* <!-- LATEST PRJECTS SLIDER START --> */}
-                    <div className="section-full  tw-project-1-wrap tw-project-1-wrap-bg site-bg-white">
-                        {/* <!-- IMAGE CAROUSEL START --> */}
-                        <div className="section-content">
-
-                            <div className="container">
-                                <div className="tw-project-1-content">
-                                    <div className="tw-project-1-content-position">
-                                        {/* <!-- TITLE START--> */}
-                                        <div className="section-head left wt-small-separator-outer">
-                                            <div className="wt-small-separator site-text-primary">
-                                                <div>Projects</div>
-                                            </div>
-                                            <h2>Featured Projects</h2>
-                                        </div>
-                                        {/* <!-- TITLE END--> */}
-                                        <div className="owl-carousel project-carousel  owl-btn-bottom-left">
-                                            {/* <!-- COLUMNS 1 --> */}
-                                            <div className="item">
-                                                <div className="project-new-2">
-                                                    <div className="wt-img-effect">
-                                                        <img src={process.env.PUBLIC_URL+`/assets/images/project/1.jpg`} alt=""/>
-                                                            <div className="project-view">
-                                                                <a className="elem pic-long project-view-btn" href="images/project/1.jpg" title="Nh-16 Highway Bridge"
-                                                                    data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/project/1.jpg">
-                                                                    <i className="fa fa-search-plus"></i>
-                                                                </a>
-                                                            </div>
-                                                    </div>
-                                                    <div className="project-new-content">
-                                                        <span className="project-new-category">Warehousing , Distrbution</span>
-                                                        <h4 className="wt-title"><a href="services-detail.html">Warehouse inventory</a></h4>
-                                                        <a href="services-detail.html" className="site-button-h-align">Read More</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            {/* <!-- COLUMNS 2 --> */}
-                                            <div className="item">
-                                                <div className="project-new-2">
-                                                    <div className="wt-img-effect">
-                                                        <img src={process.env.PUBLIC_URL+`/assets/images/project/2.jpg`} alt=""/>
-                                                            <div className="project-view">
-                                                                <a className="elem pic-long project-view-btn" href="images/project/2.jpg" title="Nh-16 Highway Bridge"
-                                                                    data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/project/2.jpg">
-                                                                    <i className="fa fa-search-plus"></i>
-                                                                </a>
-                                                            </div>
-                                                    </div>
-                                                    <div className="project-new-content">
-                                                        <span className="project-new-category">Logistics, Analytics</span>
-                                                        <h4 className="wt-title"><a href="services-detail.html">Minimize Manufacturing</a></h4>
-                                                        <a href="services-detail.html" className="site-button-h-align">Read More</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            {/* <!-- COLUMNS 3 --> */}
-                                            <div className="item">
-                                                <div className="project-new-2">
-                                                    <div className="wt-img-effect">
-                                                        <img src={process.env.PUBLIC_URL+`/assets/images/project/3.jpg`} alt=""/>
-                                                            <div className="project-view">
-                                                                <a className="elem pic-long project-view-btn" href="images/project/3.jpg" title="Nh-16 Highway Bridge"
-                                                                    data-lcl-txt="" data-lcl-author="" data-lcl-thumb="images/project/3.jpg">
-                                                                    <i className="fa fa-search-plus"></i>
-                                                                </a>
-                                                            </div>
-                                                    </div>
-                                                    <div className="project-new-content">
-                                                        <span className="project-new-category">Warehousing , Distrbution</span>
-                                                        <h4 className="wt-title"><a href="services-detail.html">Warehouse inventory</a></h4>
-                                                        <a href="services-detail.html" className="site-button-h-align">Read More</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-                    {/* <!-- LATEST PRJECTS SLIDER END --> */}
 
                 </div>
                 {/* <!-- CONTENT END --> */}
