@@ -1,6 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
-export default function Gallery() {
+export default function Gallery(props) {
+    useEffect(()=>{
+        document.title = `Befikrmove - ${props.title}`;
+      },[])
+
     return (
         <div className="page-content">
 

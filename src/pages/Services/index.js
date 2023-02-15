@@ -1,6 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
-export default function Services() {
+export default function Services(props) {
+
+    useEffect(()=>{
+        document.title = `Befikrmove - ${props.title}`;
+      },[])
+
     return (
         <div className="page-content">
 
@@ -60,7 +66,7 @@ export default function Services() {
                                                     <div className="service-content-bottom">
                                                         <span className="service-title-large-number">01</span>
                                                         <p>Before registering any Household Shifting Services businesses with Befikrmove, we do a thorough background check of them. We link only recognized and trusted Indian house shifting service providers.</p>
-                                                        <a href="household-shifting-services.html" className="site-button-2">View Detail</a>
+                                                        <Link to={'/household-shifting-services'} className="site-button-2">View Detail</Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -81,7 +87,7 @@ export default function Services() {
                                                     <div className="service-content-bottom">
                                                         <span className="service-title-large-number">02</span>
                                                         <p>We provide hassle-free, high-quality loaded office shifting services at extremely reasonable moving costs.</p>
-                                                        <a href="office-shifting-services.html" className="site-button-2">View Detail</a>
+                                                        <Link to={'/office-shifting-services'} className="site-button-2">View Detail</Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -102,7 +108,7 @@ export default function Services() {
                                                     <div className="service-content-bottom">
                                                         <span className="service-title-large-number">03</span>
                                                         <p>The more objects that have to be moved, the more difficult the process.</p>
-                                                        <a href="industrial-shifting-services.html" className="site-button-2">View Detail</a>
+                                                        <Link to={'/industrial-shifting-services'} className="site-button-2">View Detail</Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -123,7 +129,7 @@ export default function Services() {
                                                     <div className="service-content-bottom">
                                                         <span className="service-title-large-number">04</span>
                                                         <p>Befikramove is one of the top-ranked Car Carrier Services companies in India, thanks to its years of expertise, highly competent and qualified moving staff, and numerous satisfied customers.</p>
-                                                        <a href="car-carrier-services.html" className="site-button-2">View Detail</a>
+                                                        <Link to={'/car-carrier-services'} className="site-button-2">View Detail</Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -144,7 +150,7 @@ export default function Services() {
                                                     <div className="service-content-bottom">
                                                         <span className="service-title-large-number">05</span>
                                                         <p>Warehousing and storage services provide storage for the parts, machinery, automobiles, goods, and perishable goods of another business or organization.</p>
-                                                        <a href="warehouse-services.html" className="site-button-2">View Detail</a>
+                                                        <Link to={'/warehouse-services'} className="site-button-2">View Detail</Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -165,7 +171,7 @@ export default function Services() {
                                                     <div className="service-content-bottom">
                                                         <span className="service-title-large-number">06</span>
                                                         <p>Our team, owing to their vast experience, knows how to do things the right way, which will come in handy in restricted spaces and manage your household items in tight spaces.</p>
-                                                        <a href="loading-unloading-services.html" className="site-button-2">View Detail</a>
+                                                        <Link to={'/loading-unloading-services'} className="site-button-2">View Detail</Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -185,7 +191,7 @@ export default function Services() {
                                                     <div className="service-content-bottom">
                                                         <span className="service-title-large-number">07</span>
                                                         <p>To facilitate safe and easy relocation, Befikrmove Relocation Services remains loyal to its primary focus: the client.</p>
-                                                        <a href="relocation-services.html" className="site-button-2">View Detail</a>
+                                                        <Link to={'/relocation-services'} className="site-button-2">View Detail</Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -206,7 +212,7 @@ export default function Services() {
                                                     <div className="service-content-bottom">
                                                         <span className="service-title-large-number">08</span>
                                                         <p>Most reputed packers and movers in India are available through Befikramove, and they have a professional understanding of packing and moving goods.</p>
-                                                        <a href="packing-moving-services.html" className="site-button-2">View Detail</a>
+                                                        <Link to={'/packing-moving-services'} className="site-button-2">View Detail</Link>
                                                     </div>
                                                 </div>
                                             </div>

@@ -1,6 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
-export default function CarCarrier() {
+export default function CarCarrier(props) {
+
+    useEffect(()=>{
+        document.title = `Befikrmove - ${props.title}`;
+      },[])
+
   return (
     <div className="col-lg-8 col-md-12">
                             <div className="service-full-info">

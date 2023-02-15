@@ -1,6 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
-export default function About() {
+export default function About(props) {
+
+    useEffect(()=>{
+        document.title = `Befikrmove - ${props.title}`;
+      },[])
+
   return (
     <div className="page-content">
 

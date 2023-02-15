@@ -2,7 +2,12 @@ import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Slider from './Slider';
 
-export default function IndexPage() {
+export default function IndexPage(props) {
+
+    
+  useEffect(()=>{
+    document.title = `Befikrmove - ${props.title}`;
+  },[])
 
     const navigate = useNavigate();
     const getKey=()=>{

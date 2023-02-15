@@ -1,22 +1,23 @@
 import React from 'react';
+import { Link, NavLink, useNavigate } from 'react-router-dom';
 
 export default function Sidebar() {
+    const navigate = useNavigate();
+
   return (
     <div className="col-lg-4 col-md-12 rightSidebar side-bar">
-                            
-
                             <div className="widget all_services_list">
                                 <h4 className="section-head-small mb-4">Our Services</h4> 
                                 <div className="all_services m-b30">
                                     <ul>
-                                        <li><a href="household-shifting-services.html" className="active">Household Shifting Services</a></li>
-                                        <li><a href="office-shifting-services.html" >Office Shifting Services</a></li>
-                                        <li><a href="industrial-shifting-services.html">Industrial Shifting Services</a></li>
-                                        <li><a href="car-carrier-services.html">Car Carrier Services</a></li>
-                                        <li><a href="warehouse-services.html">Warehouse storage services</a></li>
-                                        <li><a href="loading-unloading-services.html">Loading and Unloading Services</a></li>
-										<li><a href="relocation-services.html">Relocation Services</a></li>
-										<li><a href="packing-moving-services.html">Packing and Moving Services</a></li>
+                                        <li><NavLink to={'/household-shifting-services'} activeClassName='active' >Household Shifting Services</NavLink></li>
+                                        <li><NavLink to={'/office-shifting-services'} activeClassName='active'>Office Shifting Services</NavLink></li>
+                                        <li><NavLink to={'/industrial-shifting-services'} activeClassName='active'>Industrial Shifting Services</NavLink></li>
+                                        <li><NavLink to={'/car-carrier-services'}  activeClassName='active'>Car Carrier Services</NavLink></li>
+                                        <li><NavLink to={'/warehouse-services'} activeClassName='active'>Warehouse storage services</NavLink></li>
+                                        <li><NavLink to={'/loading-unloading-services'} activeClassName='active'>Loading and Unloading Services</NavLink></li>
+										<li><NavLink to={'/relocation-services'} activeClassName='active'>Relocation Services</NavLink></li>
+										<li><NavLink to={'/packing-moving-services'} activeClassName='active'>Packing and Moving Services</NavLink></li>
                                     </ul>
                                 </div>
                             </div>
