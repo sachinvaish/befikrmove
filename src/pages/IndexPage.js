@@ -1,15 +1,22 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import Slider from './Slider';
 
 export default function IndexPage() {
 
-    const [key, setKey] = useState(Math.random());
     const navigate = useNavigate();
+    const getKey=()=>{
+        return ((Math.random()).toString());
+    }
 
-    useEffect(() => {
-        setKey(Math.random())
-        console.log('key=', key)
-    }, []);
+    useEffect(()=>{
+        // navigate(0);
+    },[])
+
+    setTimeout(() => {
+        navigate(0);
+    }, 0);
+
     // console.log('public url is');
     // console.log(process.env.PUBLIC_URL);
     return (
@@ -20,106 +27,7 @@ export default function IndexPage() {
                 <div className="page-content">
 
                     {/* <!-- Swiper --> */}
-                    <div className="twm-slider1-wrap"  >
-
-                        {/* <!-- Swiper --> */}
-                        <div className="swiper twm-slider">
-                            <div className="swiper-wrapper" >
-                                {/* <!--Slide One --> */}
-                                <div className="swiper-slide" >
-                                    <div className="h-banner-wrap">
-                                        <div className="h-banner-left">
-                                            <div className="h-bnr-top">
-                                                <h2>
-                                                    <span className="title-outline">Around</span>
-                                                    The World
-                                                </h2>
-                                                <p>There are many variations of passages of worem Ipsum available, but the majority</p>
-                                                <button onClick={() => navigate('/services')} className="h-bnr-btn">View Services</button>
-                                            </div>
-
-                                        </div>
-                                        <div className="h-banner-right"  >
-                                            <div className="h-bnr-r-inner">
-                                                <div className="h-bnr-media">
-                                                    <img src={process.env.PUBLIC_URL + `/assets/images/main-slider/slider1/plane.png`} alt="#" className="slide-top" />
-                                                </div>
-                                                <div className="h-bnr-animation bg-cover bg-center bg-image-moving" style={{ backgroundImage: `url('${process.env.PUBLIC_URL}/assets/images/main-slider/slider1/bg1.jpg')` }} >
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="cross-line-box left up-down"><img src={process.env.PUBLIC_URL + `/assets/images/main-slider/slider1/cross-line-box.png`} alt="#" /></div>
-                                        <div className="cross-line-box right up-down"><img src={process.env.PUBLIC_URL + `/assets/images/main-slider/slider1/cross-line-box.png`} alt="#" /></div>
-                                        <div className="circle-left-top zoon-in-out"></div>
-                                    </div>
-                                </div>
-
-                                {/* <!--Slide Two --> */}
-                                <div className="swiper-slide">
-                                    <div className="h-banner-wrap">
-                                        <div className="h-banner-left">
-                                            <div className="h-bnr-top">
-                                                <h2>
-                                                    <span className="title-outline">To Every</span>
-                                                    Direction
-                                                </h2>
-                                                <p>There are many variations of passages of worem Ipsum available, but the majority</p>
-                                                <button onClick={() => navigate('/services')} className="h-bnr-btn">View Services</button>
-                                            </div>
-
-                                        </div>
-                                        <div className="h-banner-right" >
-                                            <div className="h-bnr-r-inner">
-                                                <div className="h-bnr-media">
-                                                    <img src={process.env.PUBLIC_URL + `/assets/images/main-slider/slider1/truck.png`} alt="#" className="slide-top" />
-                                                </div>
-                                                <div className="h-bnr-animation bg-cover bg-center bg-image-moving" style={{ backgroundImage: `url('${process.env.PUBLIC_URL}/assets/images/main-slider/slider1/bg2.jpg')` }}>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="cross-line-box left up-down"><img src={process.env.PUBLIC_URL + `/assets/images/main-slider/slider1/cross-line-box.png`} alt="#" /></div>
-                                        <div className="cross-line-box right up-down"><img src={process.env.PUBLIC_URL + `/assets/images/main-slider/slider1/cross-line-box.png`} alt="#" /></div>
-                                        <div className="circle-left-top zoon-in-out"></div>
-                                    </div>
-                                </div>
-
-                                {/* <!--Slide Three --> */}
-                                <div className="swiper-slide">
-                                    <div className="h-banner-wrap">
-                                        <div className="h-banner-left">
-                                            <div className="h-bnr-top">
-                                                <h2>
-                                                    <span className="title-outline">Ready</span>
-                                                    To Move
-                                                </h2>
-                                                <p>There are many variations of passages of worem Ipsum available, but the majority</p>
-                                                <button onClick={() => navigate('/services')} className="h-bnr-btn">View Services</button>
-                                            </div>
-
-                                        </div>
-                                        <div className="h-banner-right">
-                                            <div className="h-bnr-r-inner">
-                                                <div className="h-bnr-media">
-                                                    <img src={process.env.PUBLIC_URL + `/assets/images/main-slider/slider1/ship.png`} alt="#" className="slide-top" />
-                                                </div>
-                                                <div className="h-bnr-animation bg-cover bg-center bg-image-moving" style={{ backgroundImage: `url('${process.env.PUBLIC_URL}/assets/images/main-slider/slider1/bg3.jpg')` }} >
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="cross-line-box left up-down"><img src={process.env.PUBLIC_URL + `/assets/images/main-slider/slider1/cross-line-box.png`} alt="#" /></div>
-                                        <div className="cross-line-box right up-down"><img src={process.env.PUBLIC_URL + `/assets/images/main-slider/slider1/cross-line-box.png`} alt="#" /></div>
-                                        <div className="circle-left-top zoon-in-out"></div>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div className="swiper-pagination"> </div>
-                        </div>
-
-                    </div>
+                    <Slider/>
                     {/* <!-- Swiper --> */}
 
 
@@ -479,7 +387,7 @@ export default function IndexPage() {
 
                     {/* <!-- TESTIMONIALS SECTION START --> */}
                     <div className="section-full bg-cover p-t120 p-b90 bg-cover tw-testimonial-1-area" style={{ backgroundImage: `url('${process.env.PUBLIC_URL}/assets/images/background/bg-6.jpg')` }}>
-                        <div className="tw-testimonial-inner-wrap">
+                        <div className="tw-testimonial-inner-wrap" >
                             <div className="container">
                                 <div className="row">
 
