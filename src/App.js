@@ -38,7 +38,7 @@ function App() {
         <Route exact path="/industrial-shifting-services" element={<ServiceDetail title={'Industrial Shifting Services'} service={<IndustrialShifting title='Industrial Shifting Services'/>}/>}/>
         <Route exact path="/car-carrier-services" element={<ServiceDetail title={'Car Carrier Services'} service={<CarCarrier title='Car Carrier Services'/>}/>}/>
         <Route exact path="/loading-unloading-services" element={<ServiceDetail title={'Loading & Unloading Services'} service={<LoadingUnloading title='Loading & Unloading Services'/>}/>}/>
-        <Route exact path="/packing-moving-services" element={<ServiceDetail title={'Packing & Movies Services'} service={<PackingMoving title='Packing & Movies Services'/>}/>}/>
+        <Route exact path="/packing-moving-services" element={<ServiceDetail title={'Packing & Moving Services'} service={<PackingMoving title='Packing & Moving Services'/>}/>}/>
         <Route exact path="/relocation-services" element={<ServiceDetail title={'Relocation Services'} service={<Relocation title='Relocation Services'/>}/>}/>
         <Route exact path="/warehouse-services" element={<ServiceDetail title={'Ware House Services'} service={<WarehouseServices title='Ware House Services'/>}/>}/>
         <Route exact path="/gallery" element={<Gallery title='Gallery'/>}/>
