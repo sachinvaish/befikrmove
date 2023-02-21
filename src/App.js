@@ -20,6 +20,7 @@ import PackingMoving from './pages/Services/Items/PackingMoving';
 import Relocation from './pages/Services/Items/Relocation';
 import WarehouseServices from './pages/Services/Items/WarehouseServices';
 import Branches from './pages/Branches';
+import Detail from './pages/Branches/Detail';
 
 function App() {
 
@@ -43,6 +44,7 @@ function App() {
         <Route exact path="/warehouse-services" element={<ServiceDetail title={'Ware House Services'} service={<WarehouseServices title='Ware House Services'/>}/>}/>
         <Route exact path="/gallery" element={<Gallery title='Gallery'/>}/>
         <Route exact path="/branches" element={<Branches title='Branches'/>}/>
+        <Route exact path="/branches/:name" element={<Detail title='Patna'/>}/>
       </Routes>
       <Footer/>
       <GoTopButton/>

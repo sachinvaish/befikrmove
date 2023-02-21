@@ -10,14 +10,14 @@ export default function Sidebar() {
                                 <h4 className="section-head-small mb-4">Our Services</h4> 
                                 <div className="all_services m-b30">
                                     <ul>
-                                        <li><NavLink to={'/household-shifting-services'} activeClassName='active' >Household Shifting Services</NavLink></li>
-                                        <li><NavLink to={'/office-shifting-services'} activeClassName='active'>Office Shifting Services</NavLink></li>
-                                        <li><NavLink to={'/industrial-shifting-services'} activeClassName='active'>Industrial Shifting Services</NavLink></li>
-                                        <li><NavLink to={'/car-carrier-services'}  activeClassName='active'>Car Carrier Services</NavLink></li>
-                                        <li><NavLink to={'/warehouse-services'} activeClassName='active'>Warehouse storage services</NavLink></li>
-                                        <li><NavLink to={'/loading-unloading-services'} activeClassName='active'>Loading and Unloading Services</NavLink></li>
-										<li><NavLink to={'/relocation-services'} activeClassName='active'>Relocation Services</NavLink></li>
-										<li><NavLink to={'/packing-moving-services'} activeClassName='active'>Packing and Moving Services</NavLink></li>
+                                        <li><NavLink to={'/household-shifting-services'} activeclassname='active' >Household Shifting Services</NavLink></li>
+                                        <li><NavLink to={'/office-shifting-services'} activeclassname='active'>Office Shifting Services</NavLink></li>
+                                        <li><NavLink to={'/industrial-shifting-services'} activeclassname='active'>Industrial Shifting Services</NavLink></li>
+                                        <li><NavLink to={'/car-carrier-services'}  activeclassname='active'>Car Carrier Services</NavLink></li>
+                                        <li><NavLink to={'/warehouse-services'} activeclassname='active'>Warehouse storage services</NavLink></li>
+                                        <li><NavLink to={'/loading-unloading-services'} activeclassname='active'>Loading and Unloading Services</NavLink></li>
+										<li><NavLink to={'/relocation-services'} activeclassname='active'>Relocation Services</NavLink></li>
+										<li><NavLink to={'/packing-moving-services'} activeclassname='active'>Packing and Moving Services</NavLink></li>
                                     </ul>
                                 </div>
                             </div>

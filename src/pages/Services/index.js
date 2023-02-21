@@ -61,7 +61,7 @@ export default function Services(props) {
                                             <div className="service-content">
                                                 <div className="service-content-inner">
                                                     <div className="service-content-top">
-                                                        <h3 className="service-title-large"><a href="household-shifting-services.html">Household Shifting Services</a></h3>
+                                                        <h3 className="service-title-large"><Link to={'/household-shifting-services'}>Household Shifting Services</Link></h3>
                                                     </div>
                                                     <div className="service-content-bottom">
                                                         <span className="service-title-large-number">01</span>
@@ -82,7 +82,7 @@ export default function Services(props) {
                                             <div className="service-content">
                                                 <div className="service-content-inner">
                                                     <div className="service-content-top">
-                                                        <h3 className="service-title-large"><a href="office-shifting-services.html">Office Shifting Services</a></h3>
+                                                        <h3 className="service-title-large"><Link to={'/office-shifting-services'}>Office Shifting Services</Link></h3>
                                                     </div>
                                                     <div className="service-content-bottom">
                                                         <span className="service-title-large-number">02</span>
@@ -103,7 +103,7 @@ export default function Services(props) {
                                             <div className="service-content">
                                                 <div className="service-content-inner">
                                                     <div className="service-content-top">
-                                                        <h3 className="service-title-large"><a href="industrial-shifting-services.html">Industrial Shifting Services</a></h3>
+                                                        <h3 className="service-title-large"><Link to={'/industrial-shifting-services'}>Industrial Shifting Services</Link></h3>
                                                     </div>
                                                     <div className="service-content-bottom">
                                                         <span className="service-title-large-number">03</span>
@@ -124,7 +124,7 @@ export default function Services(props) {
                                             <div className="service-content">
                                                 <div className="service-content-inner">
                                                     <div className="service-content-top">
-                                                        <h3 className="service-title-large"><a href="car-carrier-services.html">Car Carrier Services</a></h3>
+                                                        <h3 className="service-title-large"><Link to={'/car-carrier-services'}>Car Carrier Services</Link></h3>
                                                     </div>
                                                     <div className="service-content-bottom">
                                                         <span className="service-title-large-number">04</span>
@@ -145,7 +145,7 @@ export default function Services(props) {
                                             <div className="service-content">
                                                 <div className="service-content-inner">
                                                     <div className="service-content-top">
-                                                        <h3 className="service-title-large"><a href="warehouse-services.html">Warehouse storage services</a></h3>
+                                                        <h3 className="service-title-large"><Link to={'/warehouse-services'}>Warehouse storage services</Link></h3>
                                                     </div>
                                                     <div className="service-content-bottom">
                                                         <span className="service-title-large-number">05</span>
@@ -166,7 +166,7 @@ export default function Services(props) {
                                             <div className="service-content">
                                                 <div className="service-content-inner">
                                                     <div className="service-content-top">
-                                                        <h3 className="service-title-large"><a href="loading-unloading-services.html">Loading and Unloading Services</a></h3>
+                                                        <h3 className="service-title-large"><Link to={'/loading-unloading-services'}>Loading and Unloading Services</Link></h3>
                                                     </div>
                                                     <div className="service-content-bottom">
                                                         <span className="service-title-large-number">06</span>
@@ -186,7 +186,7 @@ export default function Services(props) {
                                             <div className="service-content">
                                                 <div className="service-content-inner">
                                                     <div className="service-content-top">
-                                                        <h3 className="service-title-large"><a href="relocation-services.html">Relocation Services</a></h3>
+                                                        <h3 className="service-title-large"><Link to={'/relocation-services'}>Relocation Services</Link></h3>
                                                     </div>
                                                     <div className="service-content-bottom">
                                                         <span className="service-title-large-number">07</span>
@@ -207,7 +207,7 @@ export default function Services(props) {
                                             <div className="service-content">
                                                 <div className="service-content-inner">
                                                     <div className="service-content-top">
-                                                        <h3 className="service-title-large"><a href="packing-moving-services.html">Packing and Moving Services</a></h3>
+                                                        <h3 className="service-title-large"><Link to={'/packing-moving-services'}>Packing and Moving Services</Link></h3>
                                                     </div>
                                                     <div className="service-content-bottom">
                                                         <span className="service-title-large-number">08</span>
