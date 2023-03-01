@@ -13,7 +13,8 @@ export default function Detail() {
             phone: 7764046100,
             address: 'Corporate Office	158/1/2, Gali No 11 Samta vihar Mukundpur Part 2 New Delhi 110042',
             email: 'info@befikrmove.com',
-            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin'
+            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin',
+            photo: false
         },
         {
             city: 'Patna',
@@ -21,7 +22,8 @@ export default function Detail() {
             phone: 7979767957,
             address: 'Ghana Colony Road Ramakrishna nagar Kankarbagh 2 PATNA BIHAR 800020 ',
             email: 'patna@befikrmove.com',
-            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin'
+            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin',
+            photo: true
         },
         {
             city: 'Agra',
@@ -29,7 +31,8 @@ export default function Detail() {
             phone: 8126657772,
             address: 'BefikrmoveShop 457/6, Tp Nagar, Agra, Uttar Pradesh 282002',
             email: 'agra@befikrmove.com',
-            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin'
+            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin',
+            photo: false
         },
         {
             city: 'Allahabad',
@@ -37,7 +40,8 @@ export default function Detail() {
             phone: 7764046100,
             address: '951 kalyanidavi opp kalyanidavi temple, Allahabad',
             email: 'info@befikrmove.com',
-            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin'
+            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin',
+            photo: false
         },
         {
             city: 'Aurangabad',
@@ -45,7 +49,8 @@ export default function Detail() {
             phone: 7764046100,
             address: 'Dharmatma Complax, Avishkar Chowk N-5 Cidco Opp. Swami Smarth Tea House, Aurangabad -431003',
             email: 'info@befikrmove.com',
-            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin'
+            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin',
+            photo: false
         },
         {
             city: 'Bangalore',
@@ -53,7 +58,8 @@ export default function Detail() {
             phone: 9886526564,
             address: '#41, Jai Bharat Parking TCI Bus stop 18km Tumkur Road, Madavara Bangaluru Karnatka 562162',
             email: 'bangalore@befikrmove.com',
-            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin'
+            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin',
+            photo: false
         },
         {
             city: 'Vadodara',
@@ -61,7 +67,8 @@ export default function Detail() {
             phone: 9328970777,
             address: 'Shop No-9,Nr S R Petrol Pump, Sayajipura, Ajwa Road Bridge Village, Ajwa Road, Vadodara',
             email: 'vadodara@befikrmove.com',
-            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin'
+            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin',
+            photo: true
         },
         {
             city: 'Bhagalpur',
@@ -69,7 +76,8 @@ export default function Detail() {
             phone: 7764046100,
             address: 'Complex, Radha Rani Sinha Road, Bhagalpur, Bihar-812001',
             email: 'info@befikrmove.com',
-            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin'
+            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin',
+            photo: false
         },
         {
             city: 'Bhilai',
@@ -77,7 +85,8 @@ export default function Detail() {
             phone: 7764046100,
             address: 'Church Road Supela Panch Rastha Bhilai, Chattisgarh 490023',
             email: 'info@befikrmove.com',
-            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin'
+            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin',
+            photo: false
         },
         {
             city: 'Bhopal',
@@ -85,7 +94,8 @@ export default function Detail() {
             phone: 9589584986,
             address: '52 rajnagar colony near truba college karoand, bhopal 462030',
             email: 'bhopal@befikrmove.com',
-            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin'
+            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin',
+            photo: true
         },
         {
             city: 'Bhubneswar',
@@ -93,7 +103,8 @@ export default function Detail() {
             phone: 9078779231,
             address: '26/2789,Cenal Road,Shantinagar,Jharapara, bhubaneswar,odisha-751006',
             email: 'bhubneswar@befikrmove.com',
-            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin'
+            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin',
+            photo: false
         },
         {
             city: 'Bilaspur',
@@ -101,7 +112,8 @@ export default function Detail() {
             phone: 7764046100,
             address: '109, Sindhi Colony, Mandir Chowk, beside Equitas Small Finance Bank Limited, Jarhabhata, Bilaspur, Chhattisgarh 49500',
             email: 'info@befikrmove.com',
-            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin'
+            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin',
+            photo: false
         },
         {
             city: 'Chennai',
@@ -109,7 +121,8 @@ export default function Detail() {
             phone: 9176009933,
             address: '74-A, Velachery Main Rd, Velachery, Chennai-600042 ',
             email: 'chennai@befikrmove.com',
-            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin'
+            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin',
+            photo: false
         },
         {
             city: 'Chandigarh',
@@ -117,7 +130,8 @@ export default function Detail() {
             phone: 8591858064,
             address: '405 pipli wala town Manimajra, Chandigarh 160101',
             email: 'chandigarh@befikrmove.com',
-            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin'
+            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin',
+            photo: true
         },
         {
             city: 'Dehradun',
@@ -125,7 +139,8 @@ export default function Detail() {
             phone: 7764046100,
             address: 'F-103, Saharnpur road,transport Nagar, Dehradun 248002',
             email: 'info@befikrmove.com',
-            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin'
+            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin',
+            photo: false
         },
         {
             city: 'Dhanbad',
@@ -133,7 +148,8 @@ export default function Detail() {
             phone: 9308794171,
             address: 'Matkuria, Katras Rd, Near Mahindra Showroom, Jawahar Nagar, Dhanbad, Jharkhand 826001',
             email: 'dhanbad@befikrmove.com',
-            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin'
+            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin',
+            photo: false
         },
         {
             city: 'Faridabad',
@@ -141,7 +157,8 @@ export default function Detail() {
             phone: 7764046100,
             address: 'B-1010, Green fields Colony, Sector 42/43, Faridabad-121009,Haryana',
             email: 'info@befikrmove.com',
-            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin'
+            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin',
+            photo: false
         },
         {
             city: 'Gandhidham',
@@ -149,7 +166,8 @@ export default function Detail() {
             phone:936834897,
             address: 'Plot No 3, Ashapura Park, Meghpar, Bharuchi, Gandhidham',
             email: 'gandhidham@befikrmove.com',
-            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin'
+            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin',
+            photo: false
         },
         {
             city: 'Ghaziabad',
@@ -157,7 +175,8 @@ export default function Detail() {
             phone: 7764046100,
             address: '63 Ground Floor Vrindavan Garden Near Raj Bagh Metro Sahibabad, Ghaziabad',
             email: 'info@befikrmove.com',
-            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin'
+            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin',
+            photo: false
         },
         {
             city: 'Gurgaon',
@@ -165,7 +184,8 @@ export default function Detail() {
             phone: 9212672222,
             address: 'Gurgaon	2893/4, 3rd Floor, Chuna Mandi, Pahar Ganj, New Delhi-55',
             email: 'gurgaon@befikrmove.com',
-            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin'
+            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin',
+            photo: false
         },
         {
             city: 'Guwahati',
@@ -173,7 +193,8 @@ export default function Detail() {
             phone: 6001740527,
             address: 'sonkuchi path, near spring dale I school, beharbari charali, NH37, Guwahati, Assam-781029',
             email: 'guwahati@befikrmove.com',
-            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin'
+            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin',
+            photo: false
         },
         {
             city: 'Gwalior',
@@ -181,7 +202,8 @@ export default function Detail() {
             phone: 9584691919,
             address: 'G-7 The Legacy Plaza, Airport Road, Gwalior, Madhya Pradesh 474005',
             email: 'gwalior@befikrmove.com',
-            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin'
+            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin',
+            photo: false
         },
         {
             city: 'Haridwar',
@@ -189,7 +211,8 @@ export default function Detail() {
             phone: 7764046100,
             address: 'HP Petrol Pump SIDCUL Bypass, Bhadrabad Haridwar – 249402',
             email: 'info@befikrmove.com',
-            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin'
+            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin',
+            photo: false
         },
         {
             city: 'Hyderabad',
@@ -197,7 +220,8 @@ export default function Detail() {
             phone: 9394949408,
             address: '2-170/a youth colony old Haffezpet Miyapur, Hyderabad -500049 ',
             email: 'hyderabad@befikrmove.com',
-            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin'
+            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin',
+            photo: false
         },
         {
             city: 'Indore',
@@ -205,7 +229,8 @@ export default function Detail() {
             phone: 9303024555,
             address: 'Shop.6 moulika homes kalp KanDhenu colony, velocity multiplex, Bhusa Mandi, Indore-452010',
             email: 'indore@befikrmove.com',
-            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin'
+            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin',
+            photo: false
         },
         {
             city: 'Jabalpur',
@@ -213,7 +238,8 @@ export default function Detail() {
             phone: 9285187700,
             address: 'Shop No 5, Karondanala Near Katni ByPass,	Punjabi Tadka Restaurant, Madhya Pradesh 482004',
             email: 'jabalpur@befikrmove.com',
-            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin'
+            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin',
+            photo: false
         },
         {
             city: 'Jaipur',
@@ -221,7 +247,8 @@ export default function Detail() {
             phone: 7764046100,
             address: 'Plot No. 5, 200 Bypass Ajmer Road, Jivan Vihar Colony, Opp. Karni Vihar, Police Station, Jaipur, Rajasthan 302021',
             email: 'jaipur@befikrmove.com',
-            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin'
+            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin',
+            photo: false
         },
         {
             city: 'Jammu',
@@ -229,7 +256,8 @@ export default function Detail() {
             phone: 9501131472,
             address: '444, Main GT Road, Samba, Bari Brahmana, Jammu, and Kashmir - 184121',
             email: 'jammu@befikrmove.com',
-            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin'
+            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin',
+            photo: true
         },
         {
             city: 'Jhansi',
@@ -237,7 +265,8 @@ export default function Detail() {
             phone: 9584691919,
             address: 'no 1733 khati baba tube well road near mount litra zee school, Jhansi',
             email: 'info@befikrmove.com',
-            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin'
+            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin',
+            photo: false
         },
         {
             city: 'Jharsuguda',
@@ -245,7 +274,8 @@ export default function Detail() {
             phone: 7764046100,
             address: 'Dung Dung Complex, Shop No-10, Bombay Chowk, Jharsuguda, Odisha 768203',
             email: 'info@befikrmove.com',
-            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin'
+            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin',
+            photo: false
         },
         {
             city: 'Jodhpur',
@@ -253,15 +283,17 @@ export default function Detail() {
             phone: 9799233390,
             address: 'Basni Police Station, Near Govt. School Jodhpur Rajasthan - 342005',
             email: 'jodhpur@befikrmove.com',
-            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin'
+            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin',
+            photo: false
         },
         {
-            city: 'Kakinada ',
+            city: 'Kakinada',
             description: "One of the most reputed and well-known Packers and Movers in Kakinada is Befikrmove Packers and Movers, who are also renowned for providing the most sought-after domestic and international relocation services across India. Since long ago, it has been blessed with an efficient and knowledgeable staff of packers and movers, and the business takes pride in providing hassle-free packing and relocation services from Hyderabad to Kakinada or any other place.",
             phone: 7764046100,
             address: '11-11-2/A, Above Central Bank of India, Rama Rao Peta, Kakinada, Andhra Pradesh 533004',
             email: 'info@befikrmove.com',
-            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin'
+            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin',
+            photo: false
         },
         {
             city: 'Kanpur',
@@ -269,7 +301,8 @@ export default function Detail() {
             phone: 8736006262,
             address: 'S 3250, Avas Vikas Number 3, e.w, Kalyanpur, Kanpur,Uttar Pradesh 208017',
             email: 'kanpur@befikrmove.com',
-            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin'
+            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin',
+            photo: true
         },
         {
             city: 'Kolkata',
@@ -277,7 +310,8 @@ export default function Detail() {
             phone: 7014095286,
             address: '35B, Majlish Ara Road, Mini Park, Kolkata - 700041',
             email: 'kolkata@befikrmove.com',
-            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin'
+            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin',
+            photo: false
         },
         {
             city: 'Lucknow',
@@ -285,7 +319,8 @@ export default function Detail() {
             phone: 7014095286,
             address: '35B, Majlish Ara Road, Mini Park, Kolkata - 700041',
             email: 'kolkata@befikrmove.com',
-            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin'
+            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin',
+            photo: true
         },
         {
             city: 'Ludhiana',
@@ -293,7 +328,8 @@ export default function Detail() {
             phone: 9888322510,
             address: 'SCO-7, First Floor, Transport Nagar,Ludhiana - 141003, Punjab',
             email: 'ludhiana@befikrmove.com',
-            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin'
+            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin',
+            photo: true
         },
         {
             city: 'Mysore',
@@ -301,7 +337,8 @@ export default function Detail() {
             phone: 9888322510,
             address: '148, Site No 06, Basaveshwar Nagar, 1st Stage Hebbala, Post, Metagalli, Mysore 570016',
             email: 'mysore@befikrmove.com',
-            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin'
+            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin',
+            photo: false
         },
         {
             city: 'Muzaffarpur',
@@ -309,7 +346,8 @@ export default function Detail() {
             phone: 7764046100,
             address: 'Muzaffarpur',
             email: 'info@befikrmove.com',
-            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin'
+            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin',
+            photo: false
         },
         {
             city: 'Meerut',
@@ -317,7 +355,8 @@ export default function Detail() {
             phone: 9027442551,
             address: '192/3, near Shri Durga Mata Mandir, Sector 3, Shastri Nagar, Meerut, Uttar Pradesh 250004	',
             email: 'meerut@befikrmove.com',
-            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin'
+            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin',
+            photo: false
         },
         {
             city: 'Mumbai',
@@ -325,7 +364,8 @@ export default function Detail() {
             phone: 7988475948,
             address: '13, 1st Floor, Rolan Compound, Ag Link Road, Next to BMC School Near Dhanlaxmi Building, Sakinaka 400072 Mumbai',
             email: 'mumbai@befikrmove.com',
-            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin'
+            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin',
+            photo: false
         },
         {
             city: 'Nagpur',
@@ -333,7 +373,8 @@ export default function Detail() {
             phone: 9325235587,
             address: 'Nagpur 40, 1st Floor, Suri Complex, Adarsh Nagar, Nagpur 440023',
             email: 'nagpur@befikarmove.com',
-            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin'
+            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin',
+            photo: false
         },
         {
             city: 'Nashik',
@@ -341,7 +382,8 @@ export default function Detail() {
             phone: 9371882040,
             address: '8, gajlaxmi rowhouse, Muralidhar Nagar,pathardi, phata,Nashik 422010',
             email: 'nashik@befikrmove.com',
-            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin'
+            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin',
+            photo: false
         },
         {
             city: 'Pune',
@@ -349,7 +391,8 @@ export default function Detail() {
             phone: 9860127272,
             address: 'Office No 3, Plot no 69, Sector no 23 Transport nagar Nigdi Pune-44',
             email: 'pune@befikrmove.com',
-            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin'
+            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin',
+            photo: false
         },
         {
             city: 'Raigarh',
@@ -357,7 +400,8 @@ export default function Detail() {
             phone: 9300808342,
             address: 'Shop No16,Sarangarh bus stand, sangitarai road, Raigarh',
             email: 'raigarh@befikrmove.com',
-            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin'
+            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin',
+            photo: false
         },
         {
             city: 'Raipur',
@@ -365,7 +409,8 @@ export default function Detail() {
             phone: 8421099346,
             address: 'Ganga Vihar Colony, Amlidih, Krishaknagar, Raipur',
             email: 'raipur@befikrmove.com',
-            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin'
+            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin',
+            photo: false
         },
         {
             city: 'Rajkot',
@@ -373,7 +418,8 @@ export default function Detail() {
             phone: 7764046100,
             address: 'Rajkot',
             email: 'info@befikrmove.com',
-            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin'
+            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin',
+            photo: false
         },
         {
             city: 'Ranchi',
@@ -381,7 +427,8 @@ export default function Detail() {
             phone: 9113417469,
             address: 'Near, Booty More Rd, Gautam Green City, Vijay Nagar, Ohdar Village, Ranchi, Jharkhand 835217',
             email: 'ranchi@befikrmove.com',
-            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin'
+            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin',
+            photo: false
         },
         {
             city: 'Rudrapur',
@@ -389,7 +436,8 @@ export default function Detail() {
             phone: 7764046100,
             address: 'Preet vihar colony near St marks school, Delhi-Rampur road, Rudrapur-263153',
             email: 'info@befikrmove.com',
-            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin'
+            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin',
+            photo: false
         },
         {
             city: 'Salem',
@@ -397,7 +445,8 @@ export default function Detail() {
             phone: 7764046100,
             address: 'No. 3, Manimekali Complex, Trichy Main Road, Seelanaikapatti, Salem, Tamil Nadu, 636201',
             email: 'info@befikrmove.com',
-            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin'
+            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin',
+            photo: false
         },
         {
             city: 'Sambalpur',
@@ -405,7 +454,8 @@ export default function Detail() {
             phone: 7764046100,
             address: 'NH-6, Bareipali,Near Reliance Petrol Pump (Map), Sambalpur - 768006',
             email: 'info@befikrmove.com',
-            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin'
+            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin',
+            photo: false
         },
         {
             city: 'Samastipur',
@@ -413,7 +463,8 @@ export default function Detail() {
             phone: 7764046100,
             address: 'Near indian Oil Petrol Pump Tazpur Road Mushrigharari Samastipur 84101',
             email: 'info@befikrmove.com',
-            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin'
+            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin',
+            photo: false
         },
         {
             city: 'Satna',
@@ -421,7 +472,8 @@ export default function Detail() {
             phone: 7764046100,
             address: 'Jeevan Jyoti Colony Rd, behind IDBI Bank, Shakti Vihar, Jeevan Jyoti Colony, Satna, Madhya Pradesh 485001',
             email: 'info@befikrmove.com',
-            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin'
+            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin',
+            photo: false
         },
         {
             city: 'Surat',
@@ -429,7 +481,8 @@ export default function Detail() {
             phone: 9898662924,
             address: '46, sai nagar housing soc dindoli Surat, Gujarat 394210',
             email: 'surat@befikrmove.com',
-            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin'
+            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin',
+            photo: false
         },
         {
             city: 'Sonbhadra',
@@ -437,7 +490,8 @@ export default function Detail() {
             phone: 7764046100,
             address: 'T P Nager, Unnamed Road, near Kashi More, Anpara, Sonebhadra Uttar Pradesh 231225',
             email: 'info@befikrmove.com',
-            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin'
+            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin',
+            photo: false
         },
         {
             city: 'Udaipur',
@@ -445,7 +499,8 @@ export default function Detail() {
             phone: 9329324555,
             address: '38 Ekling Colony, Behind Reliance Fresh, Hiran magri Sector 3, Udaipur - 313001',
             email: 'udaipur@befikrmove.com',
-            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin'
+            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin',
+            photo: false
         },
         {
             city: 'Varanasi',
@@ -453,7 +508,8 @@ export default function Detail() {
             phone: 7764046100,
             address: 'Maheshpur Block Road , Lahartara , Varanasi 221106',
             email: 'info@befikrmove.com',
-            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin'
+            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin',
+            photo: false
         },
         {
             city: 'Vijayawada',
@@ -461,7 +517,8 @@ export default function Detail() {
             phone: 7764046100,
             address: 'Shop No.-14, Ground Floor, H.R.T Complex, Housing Board Colony, Bhavanipuram, Vijayawada -520012(AP)',
             email: 'info@befikrmove.com',
-            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin'
+            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin',
+            photo: false
         },
         {
             city: 'Visakhapatnam',
@@ -469,7 +526,8 @@ export default function Detail() {
             phone: 7764046100,
             address: 'Visakhapatnam',
             email: 'info@befikrmove.com',
-            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin'
+            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin',
+            photo: false
         },
         {
             city: 'Zirakpur',
@@ -477,7 +535,8 @@ export default function Detail() {
             phone: 8591858064,
             address: 'SCO-8, Cabin no-4 , First Floor, Above On Dot Courier , Ranjan plaza, Zirakpur (140603)',
             email: 'zirakhpur@befikrmove.com',
-            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin'
+            location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.7266178996774!2d85.14171651496967!3d25.58076058371924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a780c137eb57%3A0xeee18225f273dbbf!2s2%2C%20Ghana%20Colony%20Rd%2C%20East%20Ram%20Krishna%20Nagar%2C%20Ramkrishan%20Nagar%2C%20Patna%2C%20Bihar%20800020!5e0!3m2!1sen!2sin!4v1676974760247!5m2!1sen!2sin',
+            photo: true
         }
     ];
 
@@ -486,7 +545,7 @@ export default function Detail() {
     return (
         <>
             {branches.map((branch) => {
-                if ((branch.city === name)||(branch.city.toLowerCase() === name)) {
+                if ((`packers-movers-${branch.city.toLowerCase()}` === name)) {
                     return (
                         <DetailItem
                             key={branch.city}
@@ -496,6 +555,7 @@ export default function Detail() {
                             address={branch.address}
                             email={branch.email}
                             location={branch.location}
+                            photo={branch.photo}
                         />
                     )
                 }

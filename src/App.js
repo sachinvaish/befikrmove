@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import './App.css';
 import Navbar from './components/Navbar';
 import IndexPage from './pages/IndexPage';
 import { Routes, Route } from 'react-router-dom';
@@ -30,7 +31,7 @@ function App() {
       <Routes>
         <Route exact path ='/' element={<IndexPage key={Math.random()} title='Home'/>}/>
         <Route exact path ='/contact' element={<ContactPage title='Contact'/>}/>
-        {/* <Route exact path="/blog" element={<Blog/>}/> */}
+        <Route exact path="/blog" element={<Blog/>}/>
         {/* <Route exact path="/faq" element={<Faq/>}/> */}
         <Route exact path="/about" element={<About title='About'/>}/>
         <Route exact path="/services" element={<Services title='Services'/>}/>

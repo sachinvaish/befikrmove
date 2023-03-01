@@ -6061,7 +6061,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 
 .service-box-style1:hover .service-content .service-content-inner {
   height: 100%;
-  background-color: rgba(255, 138, 0, 0.9);
+  background-color: #fe0000c7;
 }
 
 .service-box-style1:hover .service-content .service-content-inner .service-content-top .service-title-large a {
@@ -7288,7 +7288,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
   position: absolute;
   content: '';
   top: 72px;
-  bottom: 200px;
+  bottom:0px;
   left: 0px;
   width: 50%;
   z-index: -1;
@@ -11225,4 +11225,23 @@ select {
     line-height: 60px;
   }
 }
+.sitemessage {
+                display: inline-block;
+                white-space: nowrap;
+                animation: floatText 50s infinite linear;
+                padding-left: 100%;
+                /*Initial offset*/
+				color:#fff;
+				font-size:18px;
+            }
+
+            .sitemessage:hover {
+                animation-play-state: paused;
+            }
+
+            @keyframes floatText {
+                to {
+                    transform: translateX(-100%);
+                }
+            }
 /*# sourceMappingURL=style.css.map */

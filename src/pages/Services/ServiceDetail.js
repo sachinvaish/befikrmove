@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Sidebar from './Sidebar';
 
 export default function ServiceDetail(props) {
@@ -20,7 +21,7 @@ export default function ServiceDetail(props) {
                         
                             <div>
                                 <ul className="wt-breadcrumb breadcrumb-style-2">
-                                    <li><a href="index.html">Home</a></li>
+                                    <li><Link to="/">Home</Link></li>
                                     <li>{title}</li>
                                 </ul>
                             </div>

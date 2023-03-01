@@ -1,8 +1,9 @@
 import React, { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 export default function DetailItem(props) {
 
-    const { city, description, phone, address, email, location } = props;
+    const { city, description, phone, address, email, location, photo } = props;
     useEffect(()=>{
         document.title = `Befikrmove - ${city}`;
     },[])
@@ -24,7 +25,8 @@ export default function DetailItem(props) {
 
                         <div>
                             <ul className="wt-breadcrumb breadcrumb-style-2">
-                                <li><a href="index.html">Home</a></li>
+                                <li><Link to='/' >Home</Link></li>
+                                <li><Link to='/branches' >Branches</Link></li>
                                 <li>Packers Movers In {city}</li>
                             </ul>
                         </div>
@@ -77,7 +79,7 @@ export default function DetailItem(props) {
 
                                     <div className="tw-contact-bg-inner" style={{ backgroundImage: `url('${process.env.PUBLIC_URL}/assets/images/background/bg-4.jpg')` }}>
                                         <div className="section-top">
-
+                                            {photo && <img src={process.env.PUBLIC_URL+`/assets/branches/${city.toLowerCase()}.png`} alt="R" className="avatar" />}
                                             <h3 className="tw-con-number"><a href={`tel:${phone}`}> {phone}</a></h3>
                                         </div>
                                         <div className="section-bot">
