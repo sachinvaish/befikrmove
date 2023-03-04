@@ -36,7 +36,7 @@ export default function IndexPage(props) {
                     {/* <!-- Swiper --> */}
 
                     {/* <!-- BOOKING SECTIONhref START --> */}
-                    <div className="section-full p-t120 p-b90 site-bg-gray tw-booking-area" style={{ backgroundImage: `url('${process.env.PUBLIC_URL}/assets/images/booking/bg-map.png')` }}>
+                    <div className="section-full p-t120 p-b90 site-bg-gray tw-booking-area" style={{ backgroundImage: `url('${process.env.PUBLIC_URL}/assets/images/background/bg-6.jpg')` }}>
 
                         <div className="container">
                             {/* <!-- TITLE START--> */}
@@ -329,8 +329,11 @@ export default function IndexPage(props) {
 
                         <div className="container">
                             <div className="row">
-                                <div className="col-md-12 text-center">
-                                    <img src={process.env.PUBLIC_URL + `/assets/images/befikr.png`} style={{ width: '100%' }} className="img-fluid" alt="" />
+                                <div className="col-md-6 text-center mx-auto my-auto">
+                                    <img src={process.env.PUBLIC_URL + `/assets/images/befikr.png`} style={{ width: 100 % `!important` }} className="img-fluid" alt="" />
+                                </div>
+                                <div className="col-md-6 mx-auto my-auto">
+                                    <p style={{ borderLeft: `40px solid #fff`, borderBottom: `40px solid #fff`, left: `-40px`, bottom: ` -40px`, height: `100%`, width: `100%`, zIndex: -1, boxShadow: `0px 40px 60px rgb(30 143 208 / 70%)`, padding: `20px` }}> When you choose Befikr Packers and Movers for your move, you will benefit from our friendly staff members, safe vehicles, and expertise in the moving industry. We offer a variety of services to make your move as stress-free and efficient as possible. From packing and unpacking services to complete relocate services, we can help make your move easier.</p>
                                 </div>
                             </div>
                         </div>
@@ -549,171 +552,171 @@ export default function IndexPage(props) {
                                         <div className="owl-carousel services-gallery-one owl-btn-bottom-center ">
 
                                             {/* <!-- COLUMNS 1 --> */}
-                                    <div className="item">
-                                        <div className="service-box-style1">
-                                            <div className="service-content">
-                                                <div className="service-content-inner">
-                                                    <div className="service-content-top">
-                                                        <h3 className="service-title-large"><Link to={'/household-shifting-services'}>Household Shifting Services</Link></h3>
+                                            <div className="item">
+                                                <div className="service-box-style1">
+                                                    <div className="service-content">
+                                                        <div className="service-content-inner">
+                                                            <div className="service-content-top">
+                                                                <h3 className="service-title-large"><Link to={'/household-shifting-services'}>Household Shifting Services</Link></h3>
+                                                            </div>
+                                                            <div className="service-content-bottom">
+                                                                <span className="service-title-large-number">01</span>
+                                                                <p>Before registering any Household Shifting Services businesses with Befikrmove, we do a thorough background check of them. We link only recognized and trusted Indian house shifting service providers.</p>
+                                                                <Link to={'/household-shifting-services'} className="site-button-2">View Detail</Link>
+                                                            </div>
+                                                        </div>
                                                     </div>
-                                                    <div className="service-content-bottom">
-                                                        <span className="service-title-large-number">01</span>
-                                                        <p>Before registering any Household Shifting Services businesses with Befikrmove, we do a thorough background check of them. We link only recognized and trusted Indian house shifting service providers.</p>
-                                                        <Link to={'/household-shifting-services'} className="site-button-2">View Detail</Link>
+                                                    <div className="service-media">
+                                                        <img src={process.env.PUBLIC_URL + `/assets/images/house-shifting.jpg`} alt="" />
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className="service-media">
-                                                <img src={process.env.PUBLIC_URL+`/assets/images/house-shifting.jpg`} alt=""/>
-                                            </div>
-                                        </div>
-                                    </div>
 
-                                    {/* <!-- COLUMNS 2 --> */}
-                                    <div className="item">
-                                        <div className="service-box-style1">
-                                            <div className="service-content">
-                                                <div className="service-content-inner">
-                                                    <div className="service-content-top">
-                                                        <h3 className="service-title-large"><Link to={'/office-shifting-services'}>Office Shifting Services</Link></h3>
+                                            {/* <!-- COLUMNS 2 --> */}
+                                            <div className="item">
+                                                <div className="service-box-style1">
+                                                    <div className="service-content">
+                                                        <div className="service-content-inner">
+                                                            <div className="service-content-top">
+                                                                <h3 className="service-title-large"><Link to={'/office-shifting-services'}>Office Shifting Services</Link></h3>
+                                                            </div>
+                                                            <div className="service-content-bottom">
+                                                                <span className="service-title-large-number">02</span>
+                                                                <p>We provide hassle-free, high-quality loaded office shifting services at extremely reasonable moving costs.</p>
+                                                                <Link to={'/office-shifting-services'} className="site-button-2">View Detail</Link>
+                                                            </div>
+                                                        </div>
                                                     </div>
-                                                    <div className="service-content-bottom">
-                                                        <span className="service-title-large-number">02</span>
-                                                        <p>We provide hassle-free, high-quality loaded office shifting services at extremely reasonable moving costs.</p>
-                                                        <Link to={'/office-shifting-services'} className="site-button-2">View Detail</Link>
+                                                    <div className="service-media">
+                                                        <img src={process.env.PUBLIC_URL + `/assets/images/office-shifting.jpg`} alt="" />
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className="service-media">
-                                                <img src={process.env.PUBLIC_URL+`/assets/images/office-shifting.jpg`} alt=""/>
-                                            </div>
-                                        </div>
-                                    </div>
 
-                                    {/* <!-- COLUMNS 3 --> */}
-                                    <div className="item">
-                                        <div className="service-box-style1">
-                                            <div className="service-content">
-                                                <div className="service-content-inner">
-                                                    <div className="service-content-top">
-                                                        <h3 className="service-title-large"><Link to={'/industrial-shifting-services'}>Industrial Shifting Services</Link></h3>
+                                            {/* <!-- COLUMNS 3 --> */}
+                                            <div className="item">
+                                                <div className="service-box-style1">
+                                                    <div className="service-content">
+                                                        <div className="service-content-inner">
+                                                            <div className="service-content-top">
+                                                                <h3 className="service-title-large"><Link to={'/industrial-shifting-services'}>Industrial Shifting Services</Link></h3>
+                                                            </div>
+                                                            <div className="service-content-bottom">
+                                                                <span className="service-title-large-number">03</span>
+                                                                <p>The more objects that have to be moved, the more difficult the process.</p>
+                                                                <Link to={'/industrial-shifting-services'} className="site-button-2">View Detail</Link>
+                                                            </div>
+                                                        </div>
                                                     </div>
-                                                    <div className="service-content-bottom">
-                                                        <span className="service-title-large-number">03</span>
-                                                        <p>The more objects that have to be moved, the more difficult the process.</p>
-                                                        <Link to={'/industrial-shifting-services'} className="site-button-2">View Detail</Link>
+                                                    <div className="service-media">
+                                                        <img src={process.env.PUBLIC_URL + `/assets/images/industrial-shifting.jpg`} alt="" />
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className="service-media">
-                                                <img src={process.env.PUBLIC_URL+`/assets/images/industrial-shifting.jpg`} alt=""/>
-                                            </div>
-                                        </div>
-                                    </div>
 
-                                    {/* <!-- COLUMNS 4 --> */}
-                                    <div className="item">
-                                        <div className="service-box-style1">
-                                            <div className="service-content">
-                                                <div className="service-content-inner">
-                                                    <div className="service-content-top">
-                                                        <h3 className="service-title-large"><Link to={'/car-carrier-services'}>Car Carrier Services</Link></h3>
+                                            {/* <!-- COLUMNS 4 --> */}
+                                            <div className="item">
+                                                <div className="service-box-style1">
+                                                    <div className="service-content">
+                                                        <div className="service-content-inner">
+                                                            <div className="service-content-top">
+                                                                <h3 className="service-title-large"><Link to={'/car-carrier-services'}>Car Carrier Services</Link></h3>
+                                                            </div>
+                                                            <div className="service-content-bottom">
+                                                                <span className="service-title-large-number">04</span>
+                                                                <p>Befikramove is one of the top-ranked Car Carrier Services companies in India, thanks to its years of expertise, highly competent and qualified moving staff, and numerous satisfied customers.</p>
+                                                                <Link to={'/car-carrier-services'} className="site-button-2">View Detail</Link>
+                                                            </div>
+                                                        </div>
                                                     </div>
-                                                    <div className="service-content-bottom">
-                                                        <span className="service-title-large-number">04</span>
-                                                        <p>Befikramove is one of the top-ranked Car Carrier Services companies in India, thanks to its years of expertise, highly competent and qualified moving staff, and numerous satisfied customers.</p>
-                                                        <Link to={'/car-carrier-services'} className="site-button-2">View Detail</Link>
+                                                    <div className="service-media">
+                                                        <img src={process.env.PUBLIC_URL + `/assets/images/car-shifting.jpg`} alt="" />
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className="service-media">
-                                                <img src={process.env.PUBLIC_URL+`/assets/images/car-shifting.jpg`} alt=""/>
-                                            </div>
-                                        </div>
-                                    </div>
 
-                                    {/* <!-- COLUMNS 5 --> */}
-                                    <div className="item">
-                                        <div className="service-box-style1">
-                                            <div className="service-content">
-                                                <div className="service-content-inner">
-                                                    <div className="service-content-top">
-                                                        <h3 className="service-title-large"><Link to={'/warehouse-services'}>Warehouse storage services</Link></h3>
+                                            {/* <!-- COLUMNS 5 --> */}
+                                            <div className="item">
+                                                <div className="service-box-style1">
+                                                    <div className="service-content">
+                                                        <div className="service-content-inner">
+                                                            <div className="service-content-top">
+                                                                <h3 className="service-title-large"><Link to={'/warehouse-services'}>Warehouse storage services</Link></h3>
+                                                            </div>
+                                                            <div className="service-content-bottom">
+                                                                <span className="service-title-large-number">05</span>
+                                                                <p>Warehousing and storage services provide storage for the parts, machinery, automobiles, goods, and perishable goods of another business or organization.</p>
+                                                                <Link to={'/warehouse-services'} className="site-button-2">View Detail</Link>
+                                                            </div>
+                                                        </div>
                                                     </div>
-                                                    <div className="service-content-bottom">
-                                                        <span className="service-title-large-number">05</span>
-                                                        <p>Warehousing and storage services provide storage for the parts, machinery, automobiles, goods, and perishable goods of another business or organization.</p>
-                                                        <Link to={'/warehouse-services'} className="site-button-2">View Detail</Link>
+                                                    <div className="service-media">
+                                                        <img src={process.env.PUBLIC_URL + `/assets/images/warehouse-services.jpg`} alt="" />
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className="service-media">
-                                                <img src={process.env.PUBLIC_URL+`/assets/images/warehouse-services.jpg`} alt=""/>
-                                            </div>
-                                        </div>
-                                    </div>
 
-                                    {/* <!-- COLUMNS 6 --> */}
-                                    <div className="item">
-                                        <div className="service-box-style1">
-                                            <div className="service-content">
-                                                <div className="service-content-inner">
-                                                    <div className="service-content-top">
-                                                        <h3 className="service-title-large"><Link to={'/loading-unloading-services'}>Loading and Unloading Services</Link></h3>
+                                            {/* <!-- COLUMNS 6 --> */}
+                                            <div className="item">
+                                                <div className="service-box-style1">
+                                                    <div className="service-content">
+                                                        <div className="service-content-inner">
+                                                            <div className="service-content-top">
+                                                                <h3 className="service-title-large"><Link to={'/loading-unloading-services'}>Loading and Unloading Services</Link></h3>
+                                                            </div>
+                                                            <div className="service-content-bottom">
+                                                                <span className="service-title-large-number">06</span>
+                                                                <p>Our team, owing to their vast experience, knows how to do things the right way, which will come in handy in restricted spaces and manage your household items in tight spaces.</p>
+                                                                <Link to={'/loading-unloading-services'} className="site-button-2">View Detail</Link>
+                                                            </div>
+                                                        </div>
                                                     </div>
-                                                    <div className="service-content-bottom">
-                                                        <span className="service-title-large-number">06</span>
-                                                        <p>Our team, owing to their vast experience, knows how to do things the right way, which will come in handy in restricted spaces and manage your household items in tight spaces.</p>
-                                                        <Link to={'/loading-unloading-services'} className="site-button-2">View Detail</Link>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="service-media">
-                                                <img src={process.env.PUBLIC_URL+`/assets/images/loading-unloading.jpg`} alt=""/>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    {/* <!-- COLUMNS 6 --> */}
-                                    <div className="item">
-                                        <div className="service-box-style1">
-                                            <div className="service-content">
-                                                <div className="service-content-inner">
-                                                    <div className="service-content-top">
-                                                        <h3 className="service-title-large"><Link to={'/relocation-services'}>Relocation Services</Link></h3>
-                                                    </div>
-                                                    <div className="service-content-bottom">
-                                                        <span className="service-title-large-number">07</span>
-                                                        <p>To facilitate safe and easy relocation, Befikrmove Relocation Services remains loyal to its primary focus: the client.</p>
-                                                        <Link to={'/relocation-services'} className="site-button-2">View Detail</Link>
+                                                    <div className="service-media">
+                                                        <img src={process.env.PUBLIC_URL + `/assets/images/loading-unloading.jpg`} alt="" />
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className="service-media">
-                                                <img src={process.env.PUBLIC_URL+`/assets/images/relocation-services.jpg`} alt=""/>
+                                            {/* <!-- COLUMNS 6 --> */}
+                                            <div className="item">
+                                                <div className="service-box-style1">
+                                                    <div className="service-content">
+                                                        <div className="service-content-inner">
+                                                            <div className="service-content-top">
+                                                                <h3 className="service-title-large"><Link to={'/relocation-services'}>Relocation Services</Link></h3>
+                                                            </div>
+                                                            <div className="service-content-bottom">
+                                                                <span className="service-title-large-number">07</span>
+                                                                <p>To facilitate safe and easy relocation, Befikrmove Relocation Services remains loyal to its primary focus: the client.</p>
+                                                                <Link to={'/relocation-services'} className="site-button-2">View Detail</Link>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div className="service-media">
+                                                        <img src={process.env.PUBLIC_URL + `/assets/images/relocation-services.jpg`} alt="" />
+                                                    </div>
+                                                </div>
                                             </div>
-                                        </div>
-                                    </div>
 
-                                    {/* <!-- COLUMNS 6 --> */}
-                                    <div className="item">
-                                        <div className="service-box-style1">
-                                            <div className="service-content">
-                                                <div className="service-content-inner">
-                                                    <div className="service-content-top">
-                                                        <h3 className="service-title-large"><Link to={'/packing-moving-services'}>Packing and Moving Services</Link></h3>
+                                            {/* <!-- COLUMNS 6 --> */}
+                                            <div className="item">
+                                                <div className="service-box-style1">
+                                                    <div className="service-content">
+                                                        <div className="service-content-inner">
+                                                            <div className="service-content-top">
+                                                                <h3 className="service-title-large"><Link to={'/packing-moving-services'}>Packing and Moving Services</Link></h3>
+                                                            </div>
+                                                            <div className="service-content-bottom">
+                                                                <span className="service-title-large-number">08</span>
+                                                                <p>Most reputed packers and movers in India are available through Befikramove, and they have a professional understanding of packing and moving goods.</p>
+                                                                <Link to={'/packing-moving-services'} className="site-button-2">View Detail</Link>
+                                                            </div>
+                                                        </div>
                                                     </div>
-                                                    <div className="service-content-bottom">
-                                                        <span className="service-title-large-number">08</span>
-                                                        <p>Most reputed packers and movers in India are available through Befikramove, and they have a professional understanding of packing and moving goods.</p>
-                                                        <Link to={'/packing-moving-services'} className="site-button-2">View Detail</Link>
+                                                    <div className="service-media">
+                                                        <img src={process.env.PUBLIC_URL + `/assets/images/packing-moving.jpg`} alt="" />
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className="service-media">
-                                                <img src={process.env.PUBLIC_URL+`/assets/images/packing-moving.jpg`} alt=""/>
-                                            </div>
-                                        </div>
-                                    </div>
 
 
                                         </div>
@@ -818,7 +821,7 @@ export default function IndexPage(props) {
                                         {/* <!--Block one--> */}
                                         <div className="blog-post blog-post-4-outer">
                                             <div className="wt-post-media wt-img-effect zoom-slow">
-                                                <a href="blog-single.html"><img src={process.env.PUBLIC_URL + `/assets/images/blog/latest/bg1.jpg`} alt="" /></a>
+                                                <Link to="/blog/1"><img src={process.env.PUBLIC_URL + `/assets/images/blog1.png`} alt=""/></Link>
                                             </div>
                                             <div className="wt-post-info">
                                                 <div className="wt-post-meta ">
@@ -828,16 +831,11 @@ export default function IndexPage(props) {
                                                 </div>
 
                                                 <div className="wt-post-title ">
-                                                    <h3 className="post-title"><a href="blog-single.html">At the end of the day, going forward, a
-                                                        new normal that has evolved from.</a></h3>
+                                                    <h3 className="post-title"><a href="blog-single.html">5 Important Factors To Consider When Choosing The Best Packers And Movers In India</a></h3>
                                                 </div>
-                                                <div className="wt-post-text ">
-                                                    <p>
-                                                        New chip traps clusters of migrating tumor cells asperiortenetur, blanditiis odit.
-                                                    </p>
-                                                </div>
+
                                                 <div className="wt-post-readmore ">
-                                                    <a href="blog-single.html" className="site-button-link site-text-primary">Read More</a>
+                                                    <Link to="/blog/1" className="site-button-link site-text-primary">Read More</Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -847,7 +845,7 @@ export default function IndexPage(props) {
                                         {/* <!--Block two--> */}
                                         <div className="blog-post blog-post-4-outer">
                                             <div className="wt-post-media wt-img-effect zoom-slow">
-                                                <a href="blog-single.html"><img src={process.env.PUBLIC_URL + `/assets/images/blog/latest-2/l-1.jpg`} alt="" /></a>
+                                                <Link to="/blog/2"><img src={process.env.PUBLIC_URL + `/assets/images/blog2.png`} alt=""/></Link>
                                             </div>
                                             <div className="wt-post-info">
                                                 <div className="wt-post-meta ">
@@ -857,15 +855,11 @@ export default function IndexPage(props) {
                                                 </div>
 
                                                 <div className="wt-post-title ">
-                                                    <h3 className="post-title"><a href="blog-single.html">How all this mistaken idea denouncing pleasure and praising pain was.</a></h3>
+                                                    <h3 className="post-title"><a href="blog-single.html">How To Find The Right Packers And Movers For Your Needs</a></h3>
                                                 </div>
-                                                <div className="wt-post-text ">
-                                                    <p>
-                                                        New chip traps clusters of migrating tumor cells asperiortenetur, blanditiis odit.
-                                                    </p>
-                                                </div>
+
                                                 <div className="wt-post-readmore ">
-                                                    <a href="blog-single.html" className="site-button-link site-text-primary">Read More</a>
+                                                    <Link to="/blog/2" className="site-button-link site-text-primary">Read More</Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -875,7 +869,7 @@ export default function IndexPage(props) {
                                         {/* <!--Block three--> */}
                                         <div className="blog-post blog-post-4-outer">
                                             <div className="wt-post-media wt-img-effect zoom-slow">
-                                                <a href="blog-single.html"><img src={process.env.PUBLIC_URL + `/assets/images/blog/latest/bg3.jpg`} alt="" /></a>
+                                                <Link to="/blog/3"><img src={process.env.PUBLIC_URL + `/assets/images/blog3.png`} alt=""/></Link>
                                             </div>
                                             <div className="wt-post-info">
                                                 <div className="wt-post-meta ">
@@ -885,16 +879,11 @@ export default function IndexPage(props) {
                                                 </div>
 
                                                 <div className="wt-post-title ">
-                                                    <h3 className="post-title"><a href="blog-single.html">Going forward, a new normal that has
-                                                        evolved from generation.</a></h3>
+                                                    <h3 className="post-title"><a href="blog-single.html">The Benefits Of Hiring Professional Packers And Movers In India</a></h3>
                                                 </div>
-                                                <div className="wt-post-text ">
-                                                    <p>
-                                                        New chip traps clusters of migrating tumor cells asperiortenetur, blanditiis odit.
-                                                    </p>
-                                                </div>
+
                                                 <div className="wt-post-readmore ">
-                                                    <a href="blog-single.html" className="site-button-link site-text-primary">Read More</a>
+                                                    <Link to="/blog/3" className="site-button-link site-text-primary">Read More</Link>
                                                 </div>
                                             </div>
                                         </div>

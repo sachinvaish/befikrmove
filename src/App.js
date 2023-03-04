@@ -4,7 +4,6 @@ import Navbar from './components/Navbar';
 import IndexPage from './pages/IndexPage';
 import { Routes, Route } from 'react-router-dom';
 import ContactPage from './pages/ContactPage';
-import Blog from './pages/Blog';
 import Faq from './pages/Faq';
 import Footer from './components/Footer';
 import GoTopButton from './components/GoTopButton';
@@ -22,6 +21,10 @@ import Relocation from './pages/Services/Items/Relocation';
 import WarehouseServices from './pages/Services/Items/WarehouseServices';
 import Branches from './pages/Branches';
 import Detail from './pages/Branches/Detail';
+import Blog1 from './pages/Blogs/Blog1';
+import Blog from './pages/Blogs';
+import Blog2 from './pages/Blogs/Blog2';
+import Blog3 from './pages/Blogs/Blog3';
 
 function App() {
 
@@ -31,7 +34,10 @@ function App() {
       <Routes>
         <Route exact path ='/' element={<IndexPage key={Math.random()} title='Home'/>}/>
         <Route exact path ='/contact' element={<ContactPage title='Contact'/>}/>
-        <Route exact path="/blog" element={<Blog/>}/>
+        <Route exact path="/blog" element={<Blog title='Blog'/>}/>
+        <Route exact path="/blog/1" element={<Blog1/>}/>
+        <Route exact path="/blog/2" element={<Blog2/>}/>
+        <Route exact path="/blog/3" element={<Blog3/>}/>
         {/* <Route exact path="/faq" element={<Faq/>}/> */}
         <Route exact path="/about" element={<About title='About'/>}/>
         <Route exact path="/services" element={<Services title='Services'/>}/>
