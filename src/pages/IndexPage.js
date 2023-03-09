@@ -471,18 +471,18 @@ export default function IndexPage(props) {
 
                                                     <div className="slick-item">
                                                         <div className="slick-testimonials-thumb">
-                                                            <img src={process.env.PUBLIC_URL + `/assets/images/testimonials/pic1.jpg`} alt="one" />
+                                                            <img src={process.env.PUBLIC_URL + `/assets/images/review-1.png`} alt="one" />
                                                         </div>
                                                     </div>
                                                     <div className="slick-item">
                                                         <div className="slick-testimonials-thumb">
-                                                            <img src={process.env.PUBLIC_URL + `/assets/images/testimonials/pic2.jpg`} alt="two" />
+                                                            <img src={process.env.PUBLIC_URL + `/assets/images/review-2.png`} alt="two" />
                                                         </div>
                                                     </div>
 
                                                     <div className="slick-item">
                                                         <div className="slick-testimonials-thumb">
-                                                            <img src={process.env.PUBLIC_URL + `/assets/images/testimonials/pic4.jpg`} alt="four" />
+                                                            <img src={process.env.PUBLIC_URL + `/assets/images/review-3.png`} alt="four" />
                                                         </div>
                                                     </div>
                                                 </div>
@@ -549,7 +549,8 @@ export default function IndexPage(props) {
 
                                 <div className="section-content">
                                     <div className="services-gallery-style1">
-                                        <div className="owl-carousel services-gallery-one owl-btn-bottom-center ">
+                                        <div id="carousel" className="owl-carousel services-gallery-one owl-btn-bottom-center ">
+                                        {/* <div id="carousel" className="owl-carousel owl-btn-bottom-center"> */}
 
                                             {/* <!-- COLUMNS 1 --> */}
                                             <div className="item">

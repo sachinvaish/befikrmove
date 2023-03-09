@@ -16,9 +16,9 @@ export default function Navbar() {
                 
                         <div className="logo-header">
                             <div className="logo-header-inner logo-header-one">
-                                <a href="index.html">
+                                <Link to="/">
                                 <img src={process.env.PUBLIC_URL+`/assets/images/logo-dark.png`} alt=""/>
-                                </a>
+                                </Link>
                             </div>
                         </div>  
                         

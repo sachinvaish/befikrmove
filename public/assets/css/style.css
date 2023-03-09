@@ -2799,7 +2799,7 @@ ol li {
 
 @media (max-width: 420px) {
   .header-style-3 .navbar-toggler {
-    margin-left: 10px;
+    margin-left:10px;
   }
 }
 
@@ -3345,6 +3345,9 @@ ol li {
 @media (max-width: 767px) {
   .wt-small-separator h2 {
     margin-bottom: 20px;
+  }
+  .site-button{
+	  font-size:9px;
   }
 }
 
@@ -11245,3 +11248,7 @@ select {
                 }
             }
 /*# sourceMappingURL=style.css.map */
+
+.moving-cntnt{
+	overflow:hidden;
+}

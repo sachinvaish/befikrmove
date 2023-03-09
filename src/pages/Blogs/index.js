@@ -124,7 +124,7 @@ export default function Blog(props) {
                                                         
                         </div>
 
-                        <div className="pagination-outer">
+                        {/* <div className="pagination-outer">
                             <div className="pagination-style1">
                                 <ul className="clearfix">
                                     <li className="prev"><a href="javascript:;"><span> <i className="fa fa-angle-double-left"></i> </span></a></li>
@@ -136,7 +136,7 @@ export default function Blog(props) {
                                     <li className="next"><a href="javascript:;"><span> <i className="fa fa-angle-double-right"></i> </span></a></li>
                                 </ul>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
 
                     <div className="col-lg-4 col-md-12 rightSidebar side-bar">

@@ -3,26 +3,28 @@ import { NavLink } from 'react-router-dom';
 
 export default function Footer() {
     return (<>
-        <div className="section-full p-t20 p-b20 tw-booking-area" style={{backgroundColor:'red'}}>
+        <div className="section-full p-t20 p-b20 tw-booking-area" style={{ backgroundColor: 'red' }}>
             <div className="container">
                 <div className="row">
-                <div className="col-md-12">
-                        <div className="sitemessage">Packers Movers Agra | Packers Movers Allahabad | Packers Movers
-                            Aurangabad | Packers Movers Aurangabad | Packers Movers Bangalore | Packers Movers Bhagalpur
-                            | Packers Movers Bhilai | Packers Movers Bhopal | Packers Movers Bhubneswar | Packers Movers
-                            Bilaspur | Packers Movers Chandigarh | Packers Movers Chennai | Packers Movers Dehradun |
-                            Packers Movers Delhi | Packers Movers Dhanbad | Packers Movers Faridabad | Packers Movers
-                            Gandhidham | Packers Movers Ghaziabad | Packers Movers Gurgaon | Packers Movers Guwahati |
-                            Packers Movers Gwalior | Packers Movers Haridwar | Packers Movers Hyderabad | Packers Movers
-                            Indore | Packers Movers Jabalpur | Packers Movers Jaipur | Packers Movers Jammu | Packers
-                            Movers Jhansi | Packers Movers Jharsuguda | Packers Movers Jodhpur | Packers Movers Kanpur |
-                            Packers Movers Kolkata | Packers Movers Lucknow | Packers Movers Ludhiana | Packers Movers
-                            Meerut | Packers Movers Mumbai | Packers Movers Muzaffarpur | Packers Movers Mysore |
-                            Packers Movers Nagpur | Packers Movers Nashik | Packers Movers Patna | Packers Movers Pune |
-                            Packers Movers Raigarh | Packers Movers Raipur | Packers Movers Rajkot | Packers Movers
-                            Ranchi | Packers Movers Rudrapur | Packers Movers Salem | Packers Movers Samastipur |
-                            Packers Movers Sambalpur | Packers Movers Satna | Packers Movers Sonbhadra | Packers Movers Surat | Packers Movers Sonbhadra | Packers Movers Sambalpur | Packers Movers Udaipur | Packers Movers Vadodara |
-                            Packers Movers Varanasi | Packers Movers Vijayawada | Packers Movers Visakhapatnam | Packers Movers Zirakpur</div>
+                    <div className="col-md-12">
+                        <div className="moving-cntnt">
+                            <div className="sitemessage">Packers Movers Agra | Packers Movers Allahabad | Packers Movers
+                                Aurangabad | Packers Movers Aurangabad | Packers Movers Bangalore | Packers Movers Bhagalpur
+                                | Packers Movers Bhilai | Packers Movers Bhopal | Packers Movers Bhubneswar | Packers Movers
+                                Bilaspur | Packers Movers Chandigarh | Packers Movers Chennai | Packers Movers Dehradun |
+                                Packers Movers Delhi | Packers Movers Dhanbad | Packers Movers Faridabad | Packers Movers
+                                Gandhidham | Packers Movers Ghaziabad | Packers Movers Gurgaon | Packers Movers Guwahati |
+                                Packers Movers Gwalior | Packers Movers Haridwar | Packers Movers Hyderabad | Packers Movers
+                                Indore | Packers Movers Jabalpur | Packers Movers Jaipur | Packers Movers Jammu | Packers
+                                Movers Jhansi | Packers Movers Jharsuguda | Packers Movers Jodhpur | Packers Movers Kanpur |
+                                Packers Movers Kolkata | Packers Movers Lucknow | Packers Movers Ludhiana | Packers Movers
+                                Meerut | Packers Movers Mumbai | Packers Movers Muzaffarpur | Packers Movers Mysore |
+                                Packers Movers Nagpur | Packers Movers Nashik | Packers Movers Patna | Packers Movers Pune |
+                                Packers Movers Raigarh | Packers Movers Raipur | Packers Movers Rajkot | Packers Movers
+                                Ranchi | Packers Movers Rudrapur | Packers Movers Salem | Packers Movers Samastipur |
+                                Packers Movers Sambalpur | Packers Movers Satna | Packers Movers Sonbhadra | Packers Movers Surat | Packers Movers Sonbhadra | Packers Movers Sambalpur | Packers Movers Udaipur | Packers Movers Vadodara |
+                                Packers Movers Varanasi | Packers Movers Vijayawada | Packers Movers Visakhapatnam | Packers Movers Zirakpur</div>
+                        </div>
                     </div>
                 </div>
             </div>

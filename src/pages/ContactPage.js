@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 export default function ContactPage(props) {
     
@@ -24,7 +25,7 @@ export default function ContactPage(props) {
 
                         <div>
                             <ul className="wt-breadcrumb breadcrumb-style-2">
-                                <li><a href="index.html">Home</a></li>
+                                <li><Link to="/">Home</Link></li>
                                 <li>Contact us</li>
                             </ul>
                         </div>
@@ -43,7 +44,7 @@ export default function ContactPage(props) {
                         <div className="contact-one">
                             {/* <!-- TITLE START--> */}
                             <div className="section-head left wt-small-separator-outer">
-                                <h2 className="wt-title m-b30">Send Us a Message</h2>
+                                <h2 className="wt-title m-b30">Join us</h2>
                             </div>
                             {/* <!-- TITLE END--> 
                             <!-- CONTACT FORM--> */}
