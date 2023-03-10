@@ -1,22 +1,52 @@
 import React, { useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import Slider from './Slider';
+// import jQuery from 'jquery';
+// import {owlCarousel} from 'jquery';
 
 export default function IndexPage(props) {
 
 
     useEffect(() => {
         document.title = `Befikrmove - ${props.title}`;
+        // jQuery("#carousel").owlCarousel({
+        //     autoplay: true,
+        //     loop: true, /* use rewind if you don't want loop */
+        //     margin: 20,
+        //     /*
+        //    animateOut: 'fadeOut',
+        //    animateIn: 'fadeIn',
+        //    */
+        //     responsiveClass: true,
+        //     autoHeight: true,
+        //     autoplayTimeout: 7000,
+        //     smartSpeed: 800,
+        //     nav: true,
+        //     responsiveBaseElement: 'body',
+        //     responsive: {
+        //         0: {
+        //             items: 1
+        //         },
+
+        //         600: {
+        //             items: 3
+        //         },
+
+        //         1024: {
+        //             items: 3
+        //         },
+
+        //         1366: {
+        //             items: 3
+        //         }
+        //     }
+        // });
     }, [])
 
     const navigate = useNavigate();
     const getKey = () => {
         return ((Math.random()).toString());
     }
-
-    useEffect(() => {
-        // navigate(0);
-    }, [])
 
     setTimeout(() => {
         navigate(0);
@@ -549,7 +579,7 @@ export default function IndexPage(props) {
 
                                 <div className="section-content">
                                     <div className="services-gallery-style1">
-                                        <div id="carousel" className="owl-carousel services-gallery-one owl-btn-bottom-center ">
+                                        <div className="owl-carousel services-gallery-one owl-btn-bottom-center ">
                                         {/* <div id="carousel" className="owl-carousel owl-btn-bottom-center"> */}
 
                                             {/* <!-- COLUMNS 1 --> */}
@@ -822,7 +852,7 @@ export default function IndexPage(props) {
                                         {/* <!--Block one--> */}
                                         <div className="blog-post blog-post-4-outer">
                                             <div className="wt-post-media wt-img-effect zoom-slow">
-                                                <Link to="/blog/1"><img src={process.env.PUBLIC_URL + `/assets/images/blog1.png`} alt=""/></Link>
+                                                <Link to="/blog/1"><img src={process.env.PUBLIC_URL + `/assets/images/blog1.png`} alt="" /></Link>
                                             </div>
                                             <div className="wt-post-info">
                                                 <div className="wt-post-meta ">
@@ -846,7 +876,7 @@ export default function IndexPage(props) {
                                         {/* <!--Block two--> */}
                                         <div className="blog-post blog-post-4-outer">
                                             <div className="wt-post-media wt-img-effect zoom-slow">
-                                                <Link to="/blog/2"><img src={process.env.PUBLIC_URL + `/assets/images/blog2.png`} alt=""/></Link>
+                                                <Link to="/blog/2"><img src={process.env.PUBLIC_URL + `/assets/images/blog2.png`} alt="" /></Link>
                                             </div>
                                             <div className="wt-post-info">
                                                 <div className="wt-post-meta ">
@@ -870,7 +900,7 @@ export default function IndexPage(props) {
                                         {/* <!--Block three--> */}
                                         <div className="blog-post blog-post-4-outer">
                                             <div className="wt-post-media wt-img-effect zoom-slow">
-                                                <Link to="/blog/3"><img src={process.env.PUBLIC_URL + `/assets/images/blog3.png`} alt=""/></Link>
+                                                <Link to="/blog/3"><img src={process.env.PUBLIC_URL + `/assets/images/blog3.png`} alt="" /></Link>
                                             </div>
                                             <div className="wt-post-info">
                                                 <div className="wt-post-meta ">
