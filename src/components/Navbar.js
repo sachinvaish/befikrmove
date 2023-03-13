@@ -67,12 +67,8 @@ export default function Navbar() {
                                         <img src={process.env.PUBLIC_URL+`/assets/images/call.png`} alt="#"/>
                                     </div>
                                 </div>
-                            </div> 
-                                
+                            </div>  
                             </div>                            
-                    
-                                                    
-                        
                     </div>    
                 
                 

@@ -19,7 +19,7 @@ export default function Blog1() {
                             </div>
                             {/* <!-- BREADCRUMB ROW -->                             */}
 
-                            <div>
+                            <div >
                                 <ul className="wt-breadcrumb breadcrumb-style-2">
                                     <li><Link to="/blog">Blog</Link></li>
                                     <li>5 Important Factors To Consider When Choosing The Best Packers And Movers In India.</li>
