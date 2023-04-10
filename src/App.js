@@ -25,6 +25,7 @@ import Blog1 from './pages/Blogs/Blog1';
 import Blog from './pages/Blogs';
 import Blog2 from './pages/Blogs/Blog2';
 import Blog3 from './pages/Blogs/Blog3';
+import Whatsapp from './components/Whatsapp';
 
 function App() {
 
@@ -54,6 +55,7 @@ function App() {
         <Route exact path="/branches/:name" element={<Detail title='Patna'/>}/>
       </Routes>
       <Footer/>
+      <Whatsapp/>
       <GoTopButton/>
     </>
   );
