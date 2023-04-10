@@ -25,12 +25,14 @@ import Blog1 from './pages/Blogs/Blog1';
 import Blog from './pages/Blogs';
 import Blog2 from './pages/Blogs/Blog2';
 import Blog3 from './pages/Blogs/Blog3';
+import Whatsapp from './components/Whatsapp';
 
 function App() {
 
   return (
     <>
-      <Navbar />
+      <Navbar/>
+      <Whatsapp/>
       <Routes>
         <Route exact path ='/' element={<IndexPage key={Math.random()} title='Home'/>}/>
         <Route exact path ='/contact' element={<ContactPage title='Contact'/>}/>
